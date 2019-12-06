@@ -1,0 +1,162 @@
+.TH riceraw 1
+.SH NAME
+RiceRAW
+.SH DESCRIPTION
+The Progressive Linux Desktop Environment for Professionals
+.SH USAGE
+.SS dwm keyboard commands
+.TP
+.B [Super]+[Shift]+[Return]
+Start terminal
+.TP
+.B [Super]+[p]
+Spawn dmenu(1) for launching other programs.
+.TP
+.B
+[Super]+[,]
+Focus previous screen, if any.
+.TP
+.B
+[Super]+[.]
+Focus next screen, if any.
+.TP
+.B
+[Super]+[Shift]+[,]
+Send focused window to previous screen, if any.
+.TP
+.B
+[Super]+[Shift]+[.]
+Send focused window to next screen, if any.
+.TP
+.B
+[Super]+[b]
+Toggles bar on and off.
+.TP
+.B
+[Super]+[t]
+Sets tiled layout.
+.TP
+.B
+[Super]+[f]
+Sets floating layout.
+.TP
+.B
+[Super]+[m]
+Sets monocle layout.
+.TP
+.B
+[Super]+[Space]
+Toggles between current and previous layout.
+.TP
+.B
+[Super]+[j]
+Focus next window.
+.TP
+.B
+[Super]+[k]
+Focus previous window.
+.TP
+.B
+[Super]+[i]
+Increase number of windows in master area.
+.TP
+.B
+[Super]+[d]
+Decrease number of windows in master area.
+.TP
+.B
+[Super]+[l]
+Increase master area size.
+.TP
+.B
+[Super]+[h]
+Decrease master area size.
+.TP
+.B
+[Super]+[Return]
+Zooms/cycles focused window to/from master area (tiled layouts only).
+.TP
+.B
+[Super]+[q]
+Close focused window.
+.TP
+.B
+[Super]+[Shift]+[Space]
+Toggle focused window between tiled and floating state.
+.TP
+.B
+[Super]+[Tab]
+Toggles to the previously selected tags.
+.TP
+.B
+[Super]+[Shift]+[1..n]
+Apply nth tag to focused window.
+.TP
+.B [Super]+[Shift]+[0]
+Apply all tags to focused window.
+.TP
+.B [Super]+[Control]+[Shift]+[1..n]
+Add/remove nth tag to/from focused window.
+.TP
+.B [Super]+[1..n]
+View all windows with nth tag.
+.TP
+.B [Super]+[0]
+View all windows with any tag.
+.TP
+.B [Super]+[Control]+[1..n]
+ Add/remove all windows with nth tag to/from the view.
+.TP
+.B [Super]+[Shift]+[q]
+Quit dwm.
+.SS Mouse commands
+.TP
+.B [Super]+[Button1]
+Move focused window while dragging. Tiled windows will be toggled to the floating state.
+.TP
+.B [Super]+[Button2]
+Toggles focused window between floating and tiled state.
+.TP
+.B [Super]+[Button3]
+Resize focused window while dragging. Tiled windows will be toggled to the floating state.
+.SS Movestack patch keyboard commands
+.TP
+.B [Super]+[Shift]+[j]
+Will swap the client with the current focus with the next client.
+.TP
+.B [Super]+[Shift]+[k]
+Will swap the client with the current focus with the previous client.
+.SS Fullgaps patch keyboard commands
+.TP
+.B [Super]+[-]
+Decrease the gap size.
+.TP
+.B [Super]+[=]
+Increase the gap size.
+.TP
+.B [Super]+[Shift]+[=]
+Set the gap size to zero.
+.SS SEE ALSO
+Perform
+.I less ~/.config/sxhkd/sxhkdrc
+to check other key bindings,
+.PP
+.BR dwm (1)
+more information about dwm,
+.PP
+.BR dmenu (1)
+information about dynamic menu tool.
+.SS AUTHOR
+Suhrob R. Nuraliev
+.I LongOverdueVitalEnergy@Gmail.com
+
+.SS LINKS
+.PP
+RiceRAW project:
+.I https://github.com/suhrobina/riceraw
+.PP
+Software that sucks less homepage:
+.I https://www.suckless.org
+.PP
+Luke Smith's homepage:
+.I https://lukesmith.xyz
