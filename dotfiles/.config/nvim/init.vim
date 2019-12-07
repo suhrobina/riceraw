@@ -34,6 +34,8 @@ call plug#end()
 
 " Airline theme
     let g:airline_theme='base16_bright'
+    let g:airline_powerline_fonts = 1
+    let g:Powerline_symbols='unicode'
 
 " Activate xkbswitch
     let g:XkbSwitchEnabled = 1

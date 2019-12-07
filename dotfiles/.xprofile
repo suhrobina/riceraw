@@ -38,6 +38,7 @@ remmina -i &                 # Connect to remote desktops through the applet men
 blueman-applet &             # Bluetooth Manager
 redshift-gtk &               # Color temperature adjustment tool
 nm-applet &                  # Network Manager
+~/.joplin/Joplin.AppImage &  # Note taking app
 sleep 2 && telegram &        # Messenger
 
 # Welcome Notification
