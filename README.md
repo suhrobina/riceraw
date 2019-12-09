@@ -33,6 +33,8 @@ Full list of favorite Linux packages: [packages.csv](packages.csv)
 
 You can get all dotfiles [here](dotfiles/)
 
+See the source files [here](sources/)
+
 ### Screenshots
 
 ![Image](img/screenshot1.png)
@@ -386,7 +388,7 @@ Slim configuration `/etc/slim.conf`
 login_cmd          exec /bin/bash -login ~/.xinitrc
 default_user       suhrob
 focus_password     yes
-current_theme      slim-theme-dwm
+current_theme      micro-theme
 ```
 
 Slimlock configuration `/etc/slimlock.conf`
