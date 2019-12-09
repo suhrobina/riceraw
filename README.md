@@ -162,9 +162,9 @@ Auto mount ISO files
 Configure `/etc/apt/sources.list`
 
 ```
-deb [ trusted=yes ] file:/mnt/repo_1/ stretch main contrib
-deb [ trusted=yes ] file:/mnt/repo_2/ stretch main contrib
-deb [ trusted=yes ] file:/mnt/repo_3/ stretch main contrib
+deb [ trusted=yes ] file:/mnt/repo_1/ buster main contrib
+deb [ trusted=yes ] file:/mnt/repo_2/ buster main contrib
+deb [ trusted=yes ] file:/mnt/repo_3/ buster main contrib
 ```
 
 Update
@@ -517,7 +517,7 @@ All patch files: [here](sources/dwm/patches)
 Please see below an example of patching and compiling process
 
 ```bash
-$ tar xvfz dwm-6.2.tar.gz
+$ tar -xvzf dwm-6.2.tar.gz
 $ cd dwm-6.2/
 $ wget https://dwm.suckless.org/patches/systray/dwm-systray-20190208-cb3f58a.diff
 $ sudo patch -p1 < dwm-systray-20190208-cb3f58a.diff
