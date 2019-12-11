@@ -52,6 +52,7 @@ call plug#end()
 " -- GENERAL ------------------------------------------------------------------
 
 " Basic
+    set ignorecase
 	set laststatus=2
 	set encoding=utf-8
 	set hlsearch
@@ -91,8 +92,10 @@ call plug#end()
 
 " Copy selected text to system clipboard (requires gvim/nvim/vim-x11 installed):
 	vnoremap <C-c> "+y
-	map <C-v> "+P
+	map <C-p> "+P
 
 " Automatically deletes all trailing whitespace on save.
 	autocmd BufWritePre * %s/\s\+$//e
 
+" Compile dwm when changed
+    autocmd BufWritePost config.h !sudo make clean install

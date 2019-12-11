@@ -28,10 +28,10 @@ ScrollingLines=10000
 ShortcutsNoMenukey=TRUE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-FontName=Liberation Mono 12
 ColorPalette=#000000;#cc0000;#4e9a06;#c4a000;#3465a4;#75507b;#06989a;#d3d7cf;#555753;#ef2929;#8ae234;#fce94f;#739fcf;#ad7fa8;#34e2e2;#eeeeec
 ColorForeground=#d3d3d7d7cfcf
 ShortcutsNoHelpkey=TRUE
 ShortcutsNoMnemonics=TRUE
 BackgroundDarkness=0.650000
+FontName=Liberation Mono 12
 
