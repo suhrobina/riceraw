@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # =============================================================================
-#   ____            _           _        _             _     _                
-#  |  _ \ _ __ ___ (_) ___  ___| |_     / \   _ __ ___| |__ (_)_   _____ _ __ 
+#   ____            _           _        _             _     _
+#  |  _ \ _ __ ___ (_) ___  ___| |_     / \   _ __ ___| |__ (_)_   _____ _ __
 #  | |_) | '__/ _ \| |/ _ \/ __| __|   / _ \ | '__/ __| '_ \| \ \ / / _ \ '__|
-#  |  __/| | | (_) | |  __/ (__| |_   / ___ \| | | (__| | | | |\ V /  __/ |   
-#  |_|   |_|  \___// |\___|\___|\__| /_/   \_\_|  \___|_| |_|_| \_/ \___|_|   
-#                |__/                                                         
+#  |  __/| | | (_) | |  __/ (__| |_   / ___ \| | | (__| | | | |\ V /  __/ |
+#  |_|   |_|  \___// |\___|\___|\__| /_/   \_\_|  \___|_| |_|_| \_/ \___|_|
+#                |__/
 # =============================================================================
 #          FILE: p-archiver.sh
 #
@@ -27,13 +27,13 @@ PROJECT_ROOT_FOLDER_PATH="${HOME}/Documents/Projects/"
 PROJECT_FOLDER="riceraw/"
 
 # Archive filepath
-ARCHIVE_FILEPATH="$HOME/.notable/attachments/project_riceraw.tar.gz"
+ARCHIVE_FILEPATH="$HOME/Documents/Projects/archives/project_riceraw.tar.gz"
 
 # = PERFORM ===================================================================
 
 cd ${PROJECT_ROOT_FOLDER_PATH}
 
-tar -zcvf ${ARCHIVE_FILEPATH} ${PROJECT_FOLDER} 
+tar -zcvf ${ARCHIVE_FILEPATH} ${PROJECT_FOLDER}
 
 echo
 # read -p "Press ENTER to continue..."
