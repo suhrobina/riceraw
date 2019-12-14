@@ -20,9 +20,9 @@
 # rsync -havz --delete /home/suhrob/.notable suhrob@192.168.100.6:/home/suhrob/sync
 # echo
 
-# -- Projects folder Sync -----------------------------------------------------
-echo "(Notable)LOCAL > > > > > > FILE_SERVER"
-rsync -havz --delete /home/suhrob/Documents/Projects suhrob@192.168.100.6:/home/suhrob/sync
+# -- Projects Archives folder Sync ---------------------------------------------
+echo "(Projects Archives)LOCAL > > > > > > FILE_SERVER"
+rsync -havz --delete /home/suhrob/Documents/Projects/archives suhrob@192.168.100.6:/home/suhrob/sync
 echo
 
 # -- Calcurse Sync ------------------------------------------------------------

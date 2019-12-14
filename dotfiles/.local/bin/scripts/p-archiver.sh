@@ -33,7 +33,7 @@ ARCHIVE_FILEPATH="$HOME/Documents/Projects/archives/project_riceraw.tar.gz"
 
 cd ${PROJECT_ROOT_FOLDER_PATH}
 
-tar -zcvf ${ARCHIVE_FILEPATH} ${PROJECT_FOLDER}
+tar -cvpzf ${ARCHIVE_FILEPATH} ${PROJECT_FOLDER}
 
 echo
 # read -p "Press ENTER to continue..."
