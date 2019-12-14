@@ -10,6 +10,7 @@
 ;rice;bc;GNU bc arbitrary precision calculator language;;math;
 ;;bleachbit;delete unnecessary files from the system;;admin;
 ;rice;blueman;Graphical bluetooth manager;;x11;
+;;bmon;portable bandwidth monitor and rate estimator;;net;
 p;;calcurse;text-based calendar and todo manager;;utils;
 ;;calibre;powerful and easy to use e-book manager;;text;
 ;;chromium;web browser;web browser;;
@@ -68,6 +69,7 @@ p;;mytetra;smart crossplatform manager for information collecting;PIM manager;de
 ;rice;newsboat;text mode rss feed reader with podcast support;RSS reader;net;
 ;;nginx;small, powerful, scalable web/proxy server;;httpd;
 ;rice;nitrogen;wallpaper browser and changing utility for X;wallpaper manager;x11;
+;;nload;realtime console network usage monitor;;net;
 p;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;default;
 ;rice;ntfs-3g;read/write NTFS driver for FUSE;;otherosfs;
 p;;OBS Studio;OBS Open Broadcast Software;;;https://obsproject.com/

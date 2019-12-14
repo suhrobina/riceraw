@@ -37,6 +37,9 @@ call plug#end()
     let g:airline_powerline_fonts = 1
     let g:Powerline_symbols='unicode'
 
+" Vertical Split & Explore
+    map <silent> <F10> :Vexplore<CR>
+
 " Activate xkbswitch
     let g:XkbSwitchEnabled = 1
 
