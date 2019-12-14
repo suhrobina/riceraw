@@ -36,6 +36,7 @@ call plug#end()
     let g:airline_theme='base16_bright'
     let g:airline_powerline_fonts = 1
     let g:Powerline_symbols='unicode'
+    let g:airline#extensions#tabline#enabled = 1
 
 " Vertical Split & Explore
     map <silent> <F10> :Vexplore<CR>
