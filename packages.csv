@@ -59,8 +59,10 @@ p;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.si
 ;;minicom;friendly menu driven serial communication program;;comm;
 ;;mktemp;coreutils mktemp transitional package;;oldlibs;
 ;;motion;V4L capture program supporting motion detection;;video;
+;rice;mpd;Music Player Daemon;;sound;
 ;rice;mpv;video player based on MPlayer/mplayer2;video player;video;
 p;;mytetra;smart crossplatform manager for information collecting;PIM manager;default;https://webhamster.ru/
+;rice;ncmpcpp;ncurses-based client for the Music Player Daemon (MPD);;sound;
 ;rice;neofetch;Shows Linux System Information with Distribution Logo;;utils;
 ;rice;neovim;heavily refactored vim fork;;editors;purge vim-* and install neovim*
 ;;nethogs;Net top tool grouping bandwidth per process;;net;
