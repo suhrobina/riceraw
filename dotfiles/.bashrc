@@ -4,6 +4,7 @@
 #  _| |_) | (_| \__ \ | | | | | (__
 # (_)_.__/ \__,_|___/_| |_|_|  \___|
 #
+# The individual per-interactive-shell startup file
 
 ### FUNCTIONS =================================================================
 
@@ -171,7 +172,7 @@ alias koff='sudo service kerio-kvc stop'
 
 ### OTHER #####################################################################
 
-# set the colours of the various files and directories that are shown with the
+# Set the colours of the various files and directories that are shown with the
 # ls(1) command. Use the command dircolors –print-database to display a list
 # of the filetypes and what colour codes will be used for each one.
 if _checkexec dircolors; then
@@ -190,8 +191,6 @@ fi
 
 # Shows Linux System Information with Distribution Logo.
 # Configuration file .config/neofetch/config.conf
-neofetch
-
-
-
-
+if _checkexec neofetch; then
+    neofetch
+fi

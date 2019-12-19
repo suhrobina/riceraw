@@ -4,6 +4,8 @@
 #  _| | | | | |_) | |_| | |_| | | (__
 # (_)_|_| |_| .__/ \__,_|\__|_|  \___|
 #           |_|
+#
+# Individual readline initialization file
 
 # Configure display the current mode of vi command-line editing
 # Default terminal emulator cursor style should be block (bar)

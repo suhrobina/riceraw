@@ -47,8 +47,9 @@ SRC_TARGET_FILEPATHS="
 	.local/share/wallpapers
 	.local/share/dircolors
 	.themes
-	.bashrc
 	.bash_logout
+	.bash_profile
+	.bashrc
 	.inputrc
 	.xinitrc
 "
