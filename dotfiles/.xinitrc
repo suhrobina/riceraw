@@ -7,8 +7,9 @@
 #
 # .xinitrc runs automatically when we run startx
 
-# Map ESC to CAPSLOCK
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+# Map CAPSLOCK to ESCAPE
+setxkbmap -option caps:escape
+# xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
 # Load monitor calibration profile
 #xcalib -d :0 .local/share/color/AUO_B140HAN01.3-26.icm
@@ -43,5 +44,6 @@ sleep 2 && telegram &        # Messenger
 
 # Welcome Notification
 notify-send "Welcome to RiceRAW on Linux with DWM!" "Press SUPER+F1 for the help."
+
 # Start WM
 exec dwm
