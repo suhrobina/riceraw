@@ -118,9 +118,6 @@ if [ -d "$HOME/.local/bin/scripts" ]; then
     # export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 fi
 
-# Enable tab completion when starting a command with 'sudo'
-[ "$PS1" ] && complete -cf sudo
-
 ### ALIASES ###################################################################
 
 # Make ls a bit easier to read and enable color
