@@ -50,9 +50,7 @@ SRC_TARGET_FILEPATHS="
 	.bashrc
 	.bash_logout
 	.inputrc
-	.profile
 	.xinitrc
-	.xprofile
 "
 
 # Git project folder. Note don't forget about trailing slash (add /).
