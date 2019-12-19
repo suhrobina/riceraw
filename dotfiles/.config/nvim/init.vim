@@ -56,27 +56,40 @@ call plug#end()
 " -- GENERAL ------------------------------------------------------------------
 
 " Basic
-    set ignorecase
-	set laststatus=2
-	set encoding=utf-8
-	set hlsearch
-	set mouse=a
-	set colorcolumn=80
-	set wrap
-	set number relativenumber
-    set history=10000
+    set autoread                    " detect when a file has been modified externally
+    set ignorecase                  " ignoring case in a pattern
+	set laststatus=2                " displaying status line always
+	set encoding=utf-8              " default character encoding
+    set updatetime=400              " time of idleness is milliseconds before saving swapfile
+    set undolevels=10000            " how many undo levels to keep in memory
+    set nostartofline               " keep cursor in the same column when moving between lines
+    set errorbells                  " ring the bell for errors
+    set visualbell                  " then use a flash instead of a beep sound
+    set smartcase                   " ignore case if the search contains majuscules
+    set hlsearch                    " highlight all matches of last search
+    set incsearch                   " enable incremental searching (get feedback as you type)
+    set backspace=indent,eol,start  " backspace key should delete indentation, line ends, characters
+    set textwidth=79                " hard wrap at this column
+    set joinspaces                  " insert two spaces after punctuation marks when joining multiple lines into one
+	set mouse=a                     " enable mouse support
+	set colorcolumn=80              " setup a ruler
+	set wrap                        " automatic word wrapping
+	set number relativenumber       " relative line number
+    set history=10000               " number of lines that are remembered
+	set clipboard+=unnamedplus      " clipboard integration
     "set formatoptions+=t
-	set clipboard+=unnamedplus
+
     colorscheme torte
 	let mapleader=","
 	syntax on
 
 " Spaces & Tabs
-	set tabstop=4       " number of visual spaces per TAB
+	set tabstop=4       " tab character width
+    set shiftwidth=4    " needs to be the same as tabstop
 	set softtabstop=4   " number of spaces in tab when editing
-	set shiftwidth=4    " number of spaces to use for autoindent
+	set shiftwidth=4    " needs to be the same as tabstop
 	set expandtab       " tabs are space
-    set autoindent
+    set autoindent      " indent automatically (useful for formatoptions)
     set copyindent      " copy indent from the previous line
 
 " -- OTHERS -------------------------------------------------------------------
