@@ -45,6 +45,7 @@ SRC_TARGET_FILEPATHS="
 	.local/share/figlet
 	.local/share/riceraw
 	.local/share/wallpapers
+	.local/share/dircolors
 	.themes
 	.bashrc
 	.bash_logout

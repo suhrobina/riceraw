@@ -23,6 +23,7 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;rice;dunst;dmenu-ish notification-daemon;;x11;
 ;rice;dwm;dynamic window manager;WM window manager;x11;https://suckless.org/
 ;rice;exfat-utils;utilities to create, check, label and dump exFAT filesystem;;otherosfs;
+;rice;fd-find;Simple, fast and user-friendly alternative to find;;utils;necessary package for fzf (check FZF_DEFAULT_COMMAND, FZF_CTRL_T_COMMAND envs)
 ;rice;ffmpeg;Tools for transcoding, streaming and playing of multimedia files;;video;
 ;;file-roller;archive manager for GNOME;;gnome;
 ;rice;font-manager;font management application for the GNOME desktop;font manager;graphics;
@@ -90,7 +91,6 @@ p;;OBS Studio;OBS Open Broadcast Software;;;https://obsproject.com/
 ;;sed;GNU stream editor for filtering/transforming text;;utils;
 p;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shades-of-grey-harvest
 ;;shc;Generic shell script compiler;;devel;
-;rice;silversearcher-ag;very fast grep-like program, alternative to ack-grep;;utils;necessary package for fzf (check FZF_DEFAULT_COMMAND, FZF_CTRL_T_COMMAND envs)
 ;;simplescreenrecorder;Feature-rich screen recorder for X11 and OpenGL;;video;
 ;rice;slim;x-display-manager;DM display manager;x11;slimlock
 ;;socat;multipurpose relay for bidirectional data transfer;;net;
@@ -100,6 +100,7 @@ p;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shad
 ;;stardict;International dictionary;;utils;
 ;;stress;tool to impose load on and stress test a computer system;;devel;
 ;rice;surf;Simple web browser by suckless community;web browser;web;
+;rice;sxhkd;Simple X hotkey daemon;;x11;
 ;rice;sxiv;simple X image viewer;image viewer;graphics;
 ;;synaptic;graphical package manager;package manager;admin;
 ;;tar;GNU version of the tar archiving utility;;utils;
