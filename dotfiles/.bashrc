@@ -178,7 +178,7 @@ alias koff='sudo service kerio-kvc stop'
 # ls(1) command. Use the command dircolors –print-database to display a list
 # of the filetypes and what colour codes will be used for each one.
 if _checkexec dircolors; then
-	dircolors_data="$HOME/.local/share/dircolors"
+	dircolors_data="$HOME/.dircolors"
 	test -r $dircolors_data && eval "$(dircolors -b ${dircolors_data})" || eval "$(dircolors -b)"
 fi
 

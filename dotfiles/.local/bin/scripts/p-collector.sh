@@ -46,11 +46,11 @@ SRC_TARGET_FILEPATHS="
 	.local/share/figlet
 	.local/share/riceraw
 	.local/share/wallpapers
-	.local/share/dircolors
 	.themes
 	.Xdefaults
 	.bash_logout
 	.bash_profile
+	.dircolors
 	.bashrc
 	.inputrc
 	.xinitrc
