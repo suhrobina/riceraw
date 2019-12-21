@@ -12,7 +12,7 @@ super + Escape
 
 # Show Help
 super + F1
-    $TERMINAL --working-directory=$HOME/.local/share/riceraw -e "man ./riceraw.1"
+    $TERMINAL -e "man ~/.local/share/riceraw/riceraw.1"
 
 # Run Web-browser
 super + w
@@ -20,19 +20,15 @@ super + w
 
 # Run file manager
 super + e
-	$TERMINAL -x $FILE
+	$TERMINAL -e $FILE
 
 # Run calendar/todo manager
 super + c
-	$TERMINAL -x calcurse
-
-# Run PIM manager
-super + n
-	notable
+	$TERMINAL -e calcurse
 
 # Run RSS reader
-super + shift + n
-	$TERMINAL -x newsboat
+super + n
+	$TERMINAL -e newsboat
 
 # -- PM -----------------------------------------------------------------------
 

@@ -22,7 +22,7 @@ Alexander Bordachyov <bam85g@gmail.com>
 - **GTK3 Theme**       :  shades-of-gray-theme
 - **Icon Theme**       :  papirus-icon-theme
 - **Compositor**       :  compton
-- **Terminal**         :  xfce4-terminal
+- **Terminal**         :  xterm
 - **Shell**            :  bash
 - **Editor**           :  neovim
 - **File Manager**     :  vifm
@@ -453,28 +453,38 @@ $ sudo apt install neovim neovim-qtA
 
 ### Terminal
 
-Package: `xfce4-terminal`
+Package: `xterm`
 Color scheme: `tango`
 
 Colors HEX code:
 
 ```
-#000000 normal_black
-#cc0000 normal_red
-#4e9a06 normal_green
-#c4a000 normal_yellow
-#3465a4 normal_blue
-#75507b normal_purple
-#06989a normal_cyan
-#d3d7cf normal_white
-#555753 bright_black
-#ef2929 bright_red
-#8ae234 bright_green
-#fce94f bright_yellow
-#739fcf bright_blue
-#ad7fa8 bright_purple
-#34e2e2 bright_cyan
-#eeeeec bright_white
+xterm*background:  #000000
+xterm*foreground:  #d3d7cf
+! Black
+xterm*color0:      #000000
+xterm*color8:      #555753
+! Red
+xterm*color1:      #CC0000
+xterm*color9:      #EF2929
+! Green
+xterm*color2:      #4E9A06
+xterm*color10:     #8AE234
+! Yellow
+xterm*color3:      #C4A000
+xterm*color11:     #FCE94F
+! Blue
+xterm*color4:      #3465A4
+xterm*color12:     #739FCF
+! Magenda
+xterm*color5:      #75507B
+xterm*color13:     #AD7FA8
+! Cyan
+xterm*color6:      #06989A
+xterm*color14:     #34E2E2
+! White
+xterm*color7:      #D3D7CF
+xterm*color15:     #EEEEEC
 ```
 
 ![Image](img/tango_colorscheme.png)

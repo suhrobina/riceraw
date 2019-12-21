@@ -49,7 +49,7 @@ shopt -s autocd
 ### VARIABLE ##################################################################
 
 # Default terminal
-export TERMINAL="xfce4-terminal"
+export TERMINAL="xterm"
 
 # Default editor
 if _checkexec gvim; then
@@ -88,7 +88,9 @@ fi
 export SUDO_ASKPASS="/usr/bin/ssh-askpass"
 
 export FONTCONFIG_PATH="/etc/fonts"
-export TERM="screen-256color"
+
+#export TERM="screen-256color"
+export TERM="xterm-256color"
 
 # Bash prompt
 if [ -n "$SSH_CONNECTION" ]; then

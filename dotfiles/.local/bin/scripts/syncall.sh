@@ -20,9 +20,14 @@
 # rsync -havz --delete /home/suhrob/.notable suhrob@192.168.100.6:/home/suhrob/sync
 # echo
 
-# -- Projects Archives folder Sync ---------------------------------------------
+# -- Projects Archives folder Sync --------------------------------------------
 echo "(Projects Archives)LOCAL > > > > > > FILE_SERVER"
 rsync -havz --delete /home/suhrob/Documents/Projects/archives suhrob@192.168.100.6:/home/suhrob/sync
+echo
+
+# -- Joplin Sync --------------------------------------------------------------
+echo "(Joplin)LOCAL > > > > > > FILE_SERVER"
+rsync -havz --delete /home/suhrob/.config/joplin-desktop suhrob@192.168.100.6:/home/suhrob/sync
 echo
 
 # -- Calcurse Sync ------------------------------------------------------------

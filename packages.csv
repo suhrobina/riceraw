@@ -11,6 +11,7 @@
 ;;bleachbit;delete unnecessary files from the system;;admin;
 ;rice;blueman;Graphical bluetooth manager;;x11;
 ;;bmon;portable bandwidth monitor and rate estimator;;net;
+;;bspwm;Binary space partitioning window manager;;x11;https://github.com/baskerville/bspwm
 p;;calcurse;text-based calendar and todo manager;;utils;
 ;;calibre;powerful and easy to use e-book manager;;text;
 ;;chromium;web browser;web browser;;
@@ -84,6 +85,7 @@ p;;OBS Studio;OBS Open Broadcast Software;;;https://obsproject.com/
 ;;rclone;rsync for commercial cloud storage;;net;
 ;;redshift-gtk;Adjusts the color temperature of your screen with GTK+ integration;;x11;
 ;;remmina;GTK+ Remote Desktop Client;;gnome;
+;;rofi;window switcher, run dialog and dmenu replacement;;x11;https://github.com/davatorium/rofi
 ;;rsync;fast, versatile, remote (and local) file-copying tool;;net;
 ;;screen;terminal multiplexer with VT100/ANSI terminal emulation;;misc;
 ;rice;screenkey;screencast tool to display your keystrokes;;python;
@@ -132,6 +134,7 @@ p;;Wing Pro IDE;full-featured Python IDE designed for professional developers;;;
 ;rice;xinput;Runtime configuration and test of XInput devices;;x11;
 ;rice;xosd-bin;X On-Screen Display library - binary files;;x11;osd_cat tool
 ;rice;xserver-xorg-input-synaptics;Synaptics TouchPad driver for X.Org server;;x11;
+;rice;xterm;X terminal emulator;;x11;
 ;;youtube-dl;downloader of videos from YouTube and other sites;;web;
 p;;youtube-viewer;a lightweight application for searching and streaming videos from YouTube;;;https://github.com/trizen/youtube-viewer
 ;rice;zathura;document viewer with a minimalistic interface;;text;
