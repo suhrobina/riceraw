@@ -35,6 +35,7 @@ SRC_TARGET_FILEPATHS="
 	.config/nvim/init.vim
 	.config/sxhkd/sxhkdrc
 	.config/vifm/colors
+	.config/vifm/scripts
 	.config/vifm/vifmrc
 	.config/xfce4/terminal/terminalrc
 	.config/compton.conf
