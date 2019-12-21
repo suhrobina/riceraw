@@ -36,6 +36,7 @@ SRC_TARGET_FILEPATHS="
 	.config/sxhkd/sxhkdrc
 	.config/vifm/colors
 	.config/vifm/vifmrc
+	.config/xfce4/terminal/terminalrc
 	.config/compton.conf
 	.config/user-dirs.dirs
 	.fonts/joypixels-android.ttf
