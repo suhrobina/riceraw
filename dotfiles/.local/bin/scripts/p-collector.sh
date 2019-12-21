@@ -19,7 +19,7 @@
 #       CREATED: 29 Oct 2019
 # =============================================================================
 
-# = SETTINGS ==================================================================
+# == SETTINGS =================================================================
 
 # NOTE it's important set correct path
 SRC_ROOT_FOLDER="${HOME}"
@@ -61,7 +61,7 @@ SRC_TARGET_FILEPATHS="
 DST_GIT_FOLDER="$HOME/Documents/Projects/riceraw/dotfiles"
 
 
-# = PERFORM ===================================================================
+# == PERFORM ==================================================================
 
 # Go to source root folder
 cd ${SRC_ROOT_FOLDER}

@@ -6,7 +6,7 @@
 #
 # The individual per-interactive-shell startup file
 
-### FUNCTIONS =================================================================
+# == FUNCTIONS ================================================================
 
 # Shorter version of a common command that it used herein.
 _checkexec() {
@@ -22,7 +22,7 @@ cd() {
 	fi
 }
 
-### GENERAL ===================================================================
+# == GENERAL ==================================================================
 
 # Activate vi mode in bash.
 # To check all key bindings type 'bind -P'
@@ -46,7 +46,7 @@ shopt -s checkwinsize
 # Allows you to cd into directory merely by typing the directory name.
 shopt -s autocd
 
-### VARIABLE ##################################################################
+# == VARIABLE =================================================================
 
 # Default terminal
 export TERMINAL="xterm"
@@ -121,7 +121,7 @@ if [ -d "$HOME/.local/bin/scripts" ]; then
     # export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 fi
 
-### ALIASES ###################################################################
+# == ALIASES ==================================================================
 
 # Make ls a bit easier to read and enable color
 # support of ls and also add handy aliases
@@ -172,7 +172,7 @@ alias pf='cd ${HOME}/Documents/Projects/riceraw'
 alias kon='sudo service kerio-kvc start'
 alias koff='sudo service kerio-kvc stop'
 
-### OTHER #####################################################################
+# == OTHER ====================================================================
 
 # Set the colours of the various files and directories that are shown with the
 # ls(1) command. Use the command dircolors –print-database to display a list
@@ -193,6 +193,6 @@ fi
 
 # Shows Linux System Information with Distribution Logo.
 # Configuration file .config/neofetch/config.conf
-if _checkexec neofetch; then
-    neofetch
-fi
+#if _checkexec neofetch; then
+#    neofetch
+#fi

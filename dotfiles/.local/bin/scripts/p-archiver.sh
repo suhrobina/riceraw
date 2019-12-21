@@ -18,7 +18,7 @@
 # =============================================================================
 
 
-# = SETTINGS ==================================================================
+# == SETTINGS =================================================================
 
 # Project root folder full path/
 PROJECT_ROOT_FOLDER_PATH="${HOME}/Documents/Projects/"
@@ -29,7 +29,7 @@ PROJECT_FOLDER="riceraw/"
 # Archive filepath
 ARCHIVE_FILEPATH="$HOME/Documents/Projects/archives/project_riceraw.tar.gz"
 
-# = PERFORM ===================================================================
+# == PERFORM ==================================================================
 
 cd ${PROJECT_ROOT_FOLDER_PATH}
 
