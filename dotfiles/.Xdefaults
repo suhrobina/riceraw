@@ -93,6 +93,7 @@ xterm*highlightTextColor: XtDefaultBackground
 xterm*faceName: Liberataion Mono
 xterm*faceSize: 12.5
 xterm*renderFont: true
+xterm*allowBoldFonts: true
 xterm*boldColors: true
 !xterm*faceSize1: 9.5
 !xterm*faceSize2: 12
@@ -112,6 +113,7 @@ xterm*saveLines: 9999
 xterm*scrollKey: true
 xterm*scrollTtyKeypress: true
 xterm*scrollTtyOutput: false
+xterm*alternateScroll: true
 
 ! Backspace behaviour ! ------------------------------------------------------
 
