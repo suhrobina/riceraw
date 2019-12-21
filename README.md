@@ -454,6 +454,7 @@ $ sudo apt install neovim neovim-qtA
 ### Terminal
 
 Package: `xterm`
+
 Color scheme: `tango`
 
 Colors HEX code:
@@ -489,7 +490,7 @@ xterm*color15:     #EEEEEC
 
 ![Image](img/tango_colorscheme.png)
 
-Additional terminal package: xfce4-terminal
+Additional terminal package: `xfce4-terminal`
 
 PART 2/2 DWM Installation Workflow
 ----------------------------------
