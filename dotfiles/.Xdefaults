@@ -51,6 +51,8 @@ xterm*bellIsUrgent: false
 xterm*bellSupressTime: 100
 xterm*marginBell: false
 xterm*visualBell: true
+xterm*visualBellDelay: 100
+xterm*visualBellLine: true
 
 ! Colors ! -------------------------------------------------------------------
 
@@ -90,7 +92,7 @@ xterm*highlightTextColor: XtDefaultBackground
 
 ! Font settings ! ------------------------------------------------------------
 
-xterm*faceName: Liberataion Mono
+xterm*faceName: Hack
 xterm*faceSize: 12
 xterm*renderFont: true
 xterm*allowBoldFonts: true

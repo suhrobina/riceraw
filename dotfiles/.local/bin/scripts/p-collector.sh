@@ -40,6 +40,7 @@ SRC_TARGET_FILEPATHS="
 	.config/xfce4/terminal/terminalrc
 	.config/compton.conf
 	.config/user-dirs.dirs
+	.fonts/Hack-Regular.ttf
 	.fonts/joypixels-android.ttf
 	.local/bin/scripts
 	.local/share/color
