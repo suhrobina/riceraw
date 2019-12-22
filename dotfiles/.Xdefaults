@@ -97,14 +97,14 @@ xterm*faceSize: 12
 xterm*renderFont: true
 xterm*allowBoldFonts: true
 xterm*boldColors: true
-!xterm*faceSize1: 9.5
-!xterm*faceSize2: 12
-!xterm*faceSize3: 15
-!xterm*faceSize4: 18.25
-!xterm*faceSize5: 20.5
-!xterm*faceSize6: 25.5
+xterm*faceSize1: 9
+xterm*faceSize2: 15
+xterm*faceSize3: 18
+xterm*faceSize4: 21
+xterm*faceSize5: 24
+xterm*faceSize6: 27
 xterm*forceBoxChars: false
-xterm*limitFontsets: 5
+!xterm*limitFontsets: 5
 xterm*scaleHeight: 1.0
 
 ! Scroll and output ! --------------------------------------------------------
@@ -127,9 +127,10 @@ xterm*ttyModes: erase ^?
 
 xterm*selectToClipboard: true
 xterm*translations: #override \n\
-	Ctrl Shift <KeyPress>Next: smaller-vt-font() \n\
-	Ctrl Shift <KeyPress>Prior: larger-vt-font() \n\
-	Ctrl Shift <KeyPress>Home: set-vt-font(d)
-!	Ctrl Shift <KeyPress>C: select-end(SELECT, CLIPBOARD) \n\
-!	Ctrl Shift <KeyPress>V: insert-selection(SELECT, CLIPBOARD) \n\
+	Ctrl Shift <KeyPress>-: smaller-vt-font() \n\
+	Ctrl Shift <KeyPress>=: larger-vt-font() \n\
+	Ctrl Shift <KeyPress>Home: set-vt-font(d) \n\
+	Ctrl Shift <KeyPress>C: select-end(SELECT, CLIPBOARD) \n\
+	Ctrl Shift <KeyPress>V: insert-selection(SELECT, CLIPBOARD) \n\
     Shift <Btn1Up>: exec-formatted("chromium '%t'", PRIMARY)
+
