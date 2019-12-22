@@ -53,7 +53,7 @@ export TERMINAL="xterm"
 
 # Default editor
 if _checkexec gvim; then
-	export VISUAL="gvim"
+	export VISUAL="vim"
 	export EDITOR="vim"
 else
 	export VISUAL="vim"
