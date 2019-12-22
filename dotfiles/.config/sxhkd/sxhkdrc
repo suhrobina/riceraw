@@ -30,6 +30,10 @@ super + c
 super + n
 	$TERMINAL -e newsboat
 
+# Use xterm with tmux
+super + shift + BackSpace
+	$TERMINAL -e tmux new-session -A -s 'Default'
+
 # -- PM -----------------------------------------------------------------------
 
 # Shutdown computer

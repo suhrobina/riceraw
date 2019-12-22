@@ -54,6 +54,7 @@ SRC_TARGET_FILEPATHS="
 	.dircolors
 	.bashrc
 	.inputrc
+	.tmux.conf
 	.xinitrc
 "
 
