@@ -106,6 +106,7 @@ p;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shad
 ;rice;sxiv;simple X image viewer;image viewer;graphics;
 ;;synaptic;graphical package manager;package manager;admin;
 ;;tar;GNU version of the tar archiving utility;;utils;
+;rice;taskd;Synchronisation server for taskwarrior;;utils;
 ;rice;tasksh; shell command that wraps Taskwarrior commands;;utils;taskwarrior required
 ;rice;taskwarrior;feature-rich console based todo list manager;;utils;https://www.youtube.com/watch?v=zl68asL9jZA
 ;rice;telegram-desktop;official telegram messaging app;messenger;net;
