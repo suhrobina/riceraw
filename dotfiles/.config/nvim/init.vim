@@ -69,7 +69,7 @@ call plug#end()
     set hlsearch                    " highlight all matches of last search
     set incsearch                   " enable incremental searching (get feedback as you type)
     set backspace=indent,eol,start  " backspace key should delete indentation, line ends, characters
-    set textwidth=79                " hard wrap at this column
+    set textwidth=72                " hard wrap at this column
     set joinspaces                  " insert two spaces after punctuation marks when joining multiple lines into one
 	set mouse=a                     " enable mouse support
 	set colorcolumn=80              " setup a ruler
