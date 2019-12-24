@@ -92,6 +92,9 @@ call plug#end()
     set autoindent      " indent automatically (useful for formatoptions)
     set copyindent      " copy indent from the previous line
 
+" GUI
+    set guifont=Hack:h12
+
 " -- OTHERS -------------------------------------------------------------------
 
 " Automatic word wrapping textwidth
