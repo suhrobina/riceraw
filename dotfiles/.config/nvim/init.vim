@@ -98,7 +98,7 @@ call plug#end()
 " -- OTHERS -------------------------------------------------------------------
 
 " Automatic word wrapping textwidth
-    map <F5> :set textwidth=79<CR>
+    map <F5> :set textwidth=72<CR>
     map <S-F5> : set textwidth=0<CR>
 
 " Toggle word wrap. Change how text is displayed.
