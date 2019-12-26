@@ -23,14 +23,14 @@ function cd() {
 }
 
 # Get current branch in git repo.
-function parse_git_branch() {
+function _parse_git_branch() {
 	COLOR_RED="$(tput setaf 1)"
 	COLOR_GREEN="$(tput setaf 2)"
 	COLOR_YELLOW="$(tput setaf 3)"
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
 	if [ ! "${BRANCH}" == "" ]
 	then
-		STAT=`parse_git_dirty`
+		STAT=`_parse_git_dirty`
         echo "${COLOR_RED}[${COLOR_GREEN}${BRANCH}${COLOR_YELLOW}${STAT}${COLOR_RED}]"
 	else
 		echo ""
@@ -38,7 +38,7 @@ function parse_git_branch() {
 }
 
 # Get current status of git repo.
-function parse_git_dirty {
+function _parse_git_dirty {
 	status=`git status 2>&1 | tee`
 	dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
 	untracked=`echo -n "${status}" 2> /dev/null | grep "Untracked files" &> /dev/null; echo "$?"`
@@ -148,7 +148,7 @@ if [ -n "$SSH_CONNECTION" ]; then
     # bash prompt for ssh
     PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;33m\][SSH]\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
-    export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\w\[$(tput setaf 1)\]]\`parse_git_branch\`\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
+    export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\w\[$(tput setaf 1)\]]\`_parse_git_branch\`\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 fi
 export PS2="> "
 
