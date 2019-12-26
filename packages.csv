@@ -19,6 +19,7 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;rice;compton-conf;Compton Configurator for Qt;;x11;
 ;;curlftpfs;filesystem to access FTP hosts based on FUSE and cURL;;utils;
 ;;deluge;bittorrent client written in Python/PyGTK;;net;
+;rice;dialog;dialog --common-options --yesno text height width;;misc;
 ;;dmidecode;SMBIOS/DMI table decoder;;utils;
 ;rice;dosfstools;utilities for making and checking MS-DOS FAT filesystems;;otherosfs;
 ;rice;dunst;dmenu-ish notification-daemon;;x11;
