@@ -21,6 +21,7 @@ Alexander Bordachyov <bam85g@gmail.com>
 - **Screenlock**       :  slimlock
 - **GTK3 Theme**       :  shades-of-gray-theme
 - **Icon Theme**       :  papirus-icon-theme
+- **Main Font**        :  iosevka
 - **Compositor**       :  compton
 - **Terminal**         :  xterm
 - **Shell**            :  bash
@@ -42,10 +43,6 @@ See the source files [here](sources/)
 ![Image](img/screenshot2.png)
 
 ![Image](img/screenshot3.png)
-
-![Image](img/screenshot4.png)
-
-![Image](img/screenshot5.png)
 
 
 PART 1/2 Distro Installation Workflow
