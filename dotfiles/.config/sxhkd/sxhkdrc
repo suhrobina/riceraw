@@ -96,7 +96,7 @@ super + Delete
 
 # Run dmenu
 super + r
-	dmenu_run -fn "Liberation Mono:size=12" -sb "#756869" -p "RUN"
+	dmenu_run -fn "Iosevka:size=14" -sb "#756869" -p "RUN"
 
 # Screen key
 XF86LaunchA

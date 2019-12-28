@@ -11,7 +11,7 @@
 PlaySound(){ paplay /usr/share/sounds/freedesktop/stereo/camera-shutter.oga & }
 DELAY=0.2
 
-case "$(printf "a selected area\\ncurrent window\\nfull screen\\na selected area (copy)\\ncurrent window (copy)\\nfull screen (copy)" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -l 6 -i -p "Screenshot which area?")" in
+case "$(printf "a selected area\\ncurrent window\\nfull screen\\na selected area (copy)\\ncurrent window (copy)\\nfull screen (copy)" | dmenu -fn "Iosevka:size=14" -sb "#756869" -l 6 -i -p "Screenshot which area?")" in
 	"a selected area") sleep ${DELAY};maim -s pic-selected-"$(date '+%y%m%d-%H%M-%S').png";PlaySound ;;
 	"current window") sleep ${DELAY};maim -i "$(xdotool getactivewindow)" pic-window-"$(date '+%y%m%d-%H%M-%S').png";PlaySound ;;
 	"full screen") sleep ${DELAY};maim pic-full-"$(date '+%y%m%d-%H%M-%S').png";PlaySound ;;

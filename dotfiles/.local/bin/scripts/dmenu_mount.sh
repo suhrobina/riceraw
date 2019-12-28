@@ -9,16 +9,16 @@
 
 getmount() { \
 	[ -z "$chosen" ] && exit 1
-	mp="$(find $1 2>/dev/null | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Type in mount point.")"
+	mp="$(find $1 2>/dev/null | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Type in mount point.")"
 	[ "$mp" = "" ] && exit 1
 	if [ ! -d "$mp" ]; then
-		mkdiryn=$(printf "No\\nYes" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "$mp does not exist. Create it?")
+		mkdiryn=$(printf "No\\nYes" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "$mp does not exist. Create it?")
 		[ "$mkdiryn" = "Yes" ] && (mkdir -p "$mp" || sudo -A mkdir -p "$mp")
 	fi
 	}
 
 mountusb() { \
-	chosen="$(echo "$usbdrives" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Mount which drive?" | awk '{print $1}')"
+	chosen="$(echo "$usbdrives" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Mount which drive?" | awk '{print $1}')"
 	sudo -A mount "$chosen" 2>/dev/null && notify-send "💻 USB mounting" "$chosen mounted." && exit 0
 	alreadymounted=$(lsblk -nrpo "name,type,mountpoint" | awk '$2=="part"&&$3!~/\/boot|\/home$|SWAP/&&length($3)>1{printf "-not \\( -path *%s -prune \\) \\ \n",$3}')
 	getmount "/mnt /media /mount /home -maxdepth 5 -type d $alreadymounted"
@@ -31,14 +31,14 @@ mountusb() { \
 	}
 
 mountandroid() { \
-	chosen=$(echo "$anddrives" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Which Android device?" | cut -d : -f 1)
+	chosen=$(echo "$anddrives" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Which Android device?" | cut -d : -f 1)
 	getmount "$HOME -maxdepth 3 -type d"
 	simple-mtpfs --device "$chosen" "$mp"
 	notify-send "🤖 Android Mounting" "Android device mounted to $mp."
 	}
 
 asktype() { \
-	case $(printf "USB\\nAndroid" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Mount a USB drive or Android device?") in
+	case $(printf "USB\\nAndroid" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Mount a USB drive or Android device?") in
 		USB) mountusb ;;
 		Android) mountandroid ;;
 	esac

@@ -93,7 +93,7 @@ audio() {
 	}
 
 askrecording() { \
-	choice=$(printf "screencast\\nvideo\\naudio\\nwebcam\\nwebcam (hi-def)" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Select recording style:")
+	choice=$(printf "screencast\\nvideo\\naudio\\nwebcam\\nwebcam (hi-def)" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Select recording style:")
 	case "$choice" in
 		screencast) screencast;;
 		audio) audio;;
@@ -104,7 +104,7 @@ askrecording() { \
 	}
 
 asktoend() { \
-	response=$(printf "No\\nYes" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Recording still active. End recording?") &&
+	response=$(printf "No\\nYes" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Recording still active. End recording?") &&
 	[ "$response" = "Yes" ] &&  killrecording
 	}
 

@@ -277,9 +277,9 @@ Install fonts from repository
 $ sudo apt install ttf-ancient-fonts-symbola  ttf-unifont  fonts-powerline fonts-symbola fonts-liberation*
 ```
 
-Download Emoji font [joypixel-android.ttf](https://www.joypixels.com) and put file in to `~/.fonts` folder
+Download Emoji font [joypixel-android.ttf](https://www.joypixels.com) and put file into `~/.fonts` folder. Or get it from [here](dotfiles/.fonts)
 
-Or get it from [here](dotfiles/.fonts)
+Build iosevka font from source [iosevka-regular.ttf](https://github.com/be5invis/Iosevka) and put iosevka-regular.ttf into `~/.fonts` folder. Or get it from [here](dotfiles/.fonts)
 
 Check Emoji coverage
 
@@ -314,7 +314,7 @@ Create fonts configuration file `~/.config/fontconfig/fonts.conf`
   </alias>
   <alias>
     <family>monospace</family>
-    <prefer><family>Liberation Mono</family></prefer>
+    <prefer><family>Iosevka</family></prefer>
   </alias>
 
   <!-- This sets Symbola as the final fallback font for the monospace font family. -->
@@ -518,7 +518,7 @@ $ sudo make clean install
 
 All patch files: [here](sources/dwm/patches)
 
-- Patch #1: [step-1.patch.dwm-6.2-20191020-custom-statuscolor-systray.diff](sources/dwm/patches/step-1.patch.dwm-6.2-20191020-custom-statuscolor-systray.diff)
+- Patch #1: [complete-own-modification_2019-Dec-29_01-21-30.dwm-6.2.patch.diff](/sources/dwm/patches/complete-own-modification_2019-Dec-29_01-21-30.dwm-6.2.patch.diff)
 
 - Patch #2: [step-2.patch.dwm-movestack-6.1.diff](sources/dwm/patches/step-2.patch.dwm-movestack-6.1.diff)
 

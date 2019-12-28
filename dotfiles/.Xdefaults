@@ -92,13 +92,13 @@ xterm*highlightTextColor: XtDefaultBackground
 
 ! Font settings ! ------------------------------------------------------------
 
-xterm*faceName: Hack
-xterm*faceSize: 12
+xterm*faceName: Iosevka
+xterm*faceSize: 14
 xterm*renderFont: true
 xterm*allowBoldFonts: true
 xterm*boldColors: true
 xterm*faceSize1: 10
-xterm*faceSize2: 14
+xterm*faceSize2: 12
 xterm*faceSize3: 16
 xterm*faceSize4: 18
 xterm*faceSize5: 20

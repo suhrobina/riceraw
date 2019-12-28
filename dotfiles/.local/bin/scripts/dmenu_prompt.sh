@@ -6,4 +6,4 @@
 #
 # Author: Luke Smith
 
-[ "$(printf "No\\nYes" | dmenu -fn "Liberation Mono:size=12" -i -p "$1" -nb darkred -sb red -sf white -nf gray )" = "Yes" ] && $2
+[ "$(printf "No\\nYes" | dmenu -fn "Iosevka:size=14" -i -p "$1" -nb darkred -sb red -sf white -nf gray )" = "Yes" ] && $2

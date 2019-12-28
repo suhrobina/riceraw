@@ -7,19 +7,19 @@
 
 unmountusb() {
 	[ -z "$drives" ] && exit
-	chosen=$(echo "$drives" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Unmount which drive?" | awk '{print $1}')
+	chosen=$(echo "$drives" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Unmount which drive?" | awk '{print $1}')
 	[ -z "$chosen" ] && exit
 	sudo -A umount "$chosen" && notify-send "💻 USB unmounting" "$chosen unmounted."
 	}
 
 unmountandroid() { \
-	chosen=$(awk '/simple-mtpfs/ {print $2}' /etc/mtab | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Unmount which device?")
+	chosen=$(awk '/simple-mtpfs/ {print $2}' /etc/mtab | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Unmount which device?")
 	[ -z "$chosen" ] && exit
 	sudo -A umount -l "$chosen" && notify-send "🤖 Android unmounting" "$chosen unmounted."
 	}
 
 asktype() { \
-	case "$(printf "USB\\nAndroid" | dmenu -fn "Liberation mono:size=12" -sb "#756869" -i -p "Unmount a USB drive or Android device?")" in
+	case "$(printf "USB\\nAndroid" | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "Unmount a USB drive or Android device?")" in
 		USB) unmountusb ;;
 		Android) unmountandroid ;;
 	esac

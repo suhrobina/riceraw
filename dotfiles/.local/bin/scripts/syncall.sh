@@ -31,6 +31,7 @@ echo
 
 echo -e "${BOLD_GREEN}LOCAL(Taskwarrior) > > > > > > FILE_SERVER${RESET}"
 rsync -havz --delete /home/suhrob/.task suhrob@192.168.100.6:/home/suhrob/sync
+rsync -havz --delete /home/suhrob/.taskrc suhrob@192.168.100.6:/home/suhrob/sync
 echo
 
 echo
