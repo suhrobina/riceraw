@@ -126,6 +126,7 @@ p;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
 ;rice;vim;Vi IMproved - enhanced vi editor;;editors;
 p;rice;virtualbox;virtual machine;virtual machine;;https://www.virtualbox.org/
 ;rice;w3m;WWW browsable pager with excellent tables/frames support;;web;
+;rice;wavemon;Wireless Device Monitoring Application;;net;
 p;;webmin;web-based interface for system administration for Unix;;;http://www.webmin.com/
 ;;wget;retrieves files from the web;;web;
 p;;Wing Pro IDE;full-featured Python IDE designed for professional developers;;;https://wingware.com/

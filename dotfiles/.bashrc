@@ -168,8 +168,8 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 
 # Include scripts in the PATH
 if [ -d "$HOME/.local/bin/scripts" ]; then
-    export PATH=$PATH:"$HOME"/.local/bin/scripts
-    # export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+    # export PATH=$PATH:"$HOME"/.local/bin/scripts
+    export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 fi
 
 # == ALIASES ==================================================================

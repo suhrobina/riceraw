@@ -38,9 +38,6 @@ call plug#end()
     let g:Powerline_symbols='unicode'
     let g:airline#extensions#tabline#enabled = 1
 
-" Vertical Split & Explore
-    map <silent> <F10> :Vexplore<CR>
-
 " Activate xkbswitch
     let g:XkbSwitchEnabled = 1
 
@@ -95,7 +92,15 @@ call plug#end()
 " GUI
     set guifont=Hack:h12
 
+" Persistent Undo
+    set undofile                    " save undoes after file closes
+    set undodir=~/.vim-undo-dir     " where to store the undo files
+    set undolevels=10000            " max number of changes that can be undone
+
 " -- OTHERS -------------------------------------------------------------------
+
+" Vertical Split & Explore
+    map <silent> <F10> :Vexplore<CR>
 
 " Automatic word wrapping textwidth
     map <F5> :set textwidth=72<CR>
