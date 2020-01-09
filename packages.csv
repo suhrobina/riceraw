@@ -57,6 +57,7 @@ p;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.si
 ;;logrotate;Log rotation utility;;admin;
 ;;lshw;information about hardware configuration;;utils;
 ;rice;lxappearance;LXDE GTK+ theme switcher;GTK+ tweaker;x11;
+;rice;lxrandr;LXDE monitor configuration tool;;x11;
 ;rice;maim;takes screenshts of your desktop;;x11;
 ;rice;mc;Midnight Commander - a powerful file manager;file manager;utils;
 ;rice;mediainfo;command-line utility for reading information from audio/video files;;utils;
@@ -83,6 +84,7 @@ p;;OBS Studio;OBS Open Broadcast Software;;;https://obsproject.com/
 ;;pulsemixer;command-line mixer for PulseAudio with a curses interface;;sound;
 ;;putty;Telnet/SSH client for X;;net;
 ;;python3;interactive high-level object-oriented language;;python;
+;rice;qt5ct;Qt5 Configuration Utility;;utils;
 ;rice;ranger;File manager with an ncurses frontend written in Python;file manager;;
 ;;rclone;rsync for commercial cloud storage;;net;
 ;;redshift-gtk;Adjusts the color temperature of your screen with GTK+ integration;;x11;

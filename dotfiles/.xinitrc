@@ -31,7 +31,7 @@ power-manager.sh &
 
 dunst &                      # Notification daemon
 sxhkd &	                     # Bind keys
-unclutter -grab &            # Remove mouse when idle
+#unclutter -grab &            # Remove mouse when idle
 compton &                    # Transparency
 
 #stardict & 	             # Dictionary

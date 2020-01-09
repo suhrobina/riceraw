@@ -146,7 +146,7 @@ export TERM="xterm-256color"
 # Bash prompt
 if [ -n "$SSH_CONNECTION" ]; then
     # bash prompt for ssh
-    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;33m\][SSH]\[\033[01;34m\]\w\[\033[00m\]\$ '
+    export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;33m\][SSH]\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\w\[$(tput setaf 1)\]]\`_parse_git_branch\`\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 fi
