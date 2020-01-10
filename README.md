@@ -53,16 +53,85 @@ Linux Distro is DEBIAN 10 Buster
 
 ### Partitioning
 
-Method #1: Create a Linux Swap Partition
+**Linux Swap**
+
+_Method #1: Create a Linux Swap Partition_
 
 ```
-1#  |  Primary  |  ext4  |  /  |  boot |  /dev/sda1
-2#  |  Primary  |  swap  |     |       |  /dev/sda2
+| # | type    | file system | mount point | device    |
+|---|---------|-------------|-------------|-----------|
+| 1 | primary | ext4        | /           | /dev/sda1 |
+| 2 | primary | swap        |             | /dev/sda2 |
 ```
 
-Method #2: Create a Linux Swap File
+_Method #2: Create a Linux Swap File_
 
-For more information please search the internet
+Create a file
+
+```bash
+$ sudo fallocate -l 1G /swapfile
+```
+
+Set permission
+
+```bash
+$ sudo chmod 600 /swapfile
+```
+
+Format the file to swap
+
+```bash
+$ sudo mkswap /swapfile
+```
+
+Enable the swap
+
+```bash
+$ sudo swapon /swapfile
+```
+
+Edit the `/etc/fstab` file and add the following:
+
+```
+/swapfile swap swap defaults 0 0
+```
+
+Reboot and check the status of the swap file:
+
+```bash
+$ free -h
+```
+
+_Adjust the Swappiness value_
+
+Verify the swappiness value (default swappiness value is 60)
+
+```bash
+$ cat /proc/sys/vm/swappiness
+```
+
+Edit the file `/etc/sysctl.conf` and add the following:
+
+```
+vm.swappiness=10
+```
+
+**Partitioning example**
+
+Partitioning scheme with encryption and swap file method
+
+```
+Encrypted volume (sda2_crypt) - 250 GB Linux device-mapper (crypt)
+| # |         | size | file system | mount point |
+|---|         |------|-------------|-------------|
+| 1 |         | 250G | ext4        | /           |
+
+SSD drive (sda) - 256 GB
+| # | type    | size | file system | mount point | device    |
+|---|---------|------|-------------|-------------|-----------|
+| 1 | primary | 512M | ext4        | /boot       | /dev/sda1 |
+| 2 | primary | 250G | crypto      | (sda2_crypt)| /dev/sda2 |
+```
 
 ### Grub menu colors (optional)
 
