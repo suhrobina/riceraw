@@ -145,17 +145,17 @@ Auto mount ISO files
 - Method #1: Edit `/etc/fstab`
 
 ```
-/home/suhrob/Public/debian_dvd/debian-10.2.0-amd64-DVD-1.iso /mnt/repo_1/ udf,iso9660 loop 0 0
-/home/suhrob/Public/debian_dvd/debian-10.2.0-amd64-DVD-2.iso /mnt/repo_2/ udf,iso9660 loop 0 0
-/home/suhrob/Public/debian_dvd/debian-10.2.0-amd64-DVD-3.iso /mnt/repo_3/ udf,iso9660 loop 0 0
+/iso/debian_dvd/debian-10.2.0-amd64-DVD-1.iso /mnt/repo_1/ udf,iso9660 loop 0 0
+/iso/debian_dvd/debian-10.2.0-amd64-DVD-2.iso /mnt/repo_2/ udf,iso9660 loop 0 0
+/iso/debian_dvd/debian-10.2.0-amd64-DVD-3.iso /mnt/repo_3/ udf,iso9660 loop 0 0
 ```
 
 - Method #2: Configure cron job for root user `sudo crontab -e`
 
 ```
-@reboot mount -o loop /home/suhrob/Public/debian_dvd/debian-10.2.0-amd64-DVD-1.iso /mnt/repo_1/
-@reboot mount -o loop /home/suhrob/Public/debian_dvd/debian-10.2.0-amd64-DVD-2.iso /mnt/repo_1/
-@reboot mount -o loop /home/suhrob/Public/debian_dvd/debian-10.2.0-amd64-DVD-3.iso /mnt/repo_1/
+@reboot mount -o loop /iso/debian_dvd/debian-10.2.0-amd64-DVD-1.iso /mnt/repo_1/
+@reboot mount -o loop /iso/debian_dvd/debian-10.2.0-amd64-DVD-2.iso /mnt/repo_1/
+@reboot mount -o loop /iso/debian_dvd/debian-10.2.0-amd64-DVD-3.iso /mnt/repo_1/
 ```
 
 Configure `/etc/apt/sources.list`
