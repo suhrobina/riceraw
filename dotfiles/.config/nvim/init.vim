@@ -97,8 +97,6 @@ call plug#end()
     set undodir=~/.vim-undo-dir     " where to store the undo files
     set undolevels=10000            " max number of changes that can be undone
 
-    set ttimeoutlen=10
-
 " Cursor
     let &t_SI.="\e[5 q" "SI = INPUT mode
     let &t_SR.="\e[3 q" "SR = REPLACE mode

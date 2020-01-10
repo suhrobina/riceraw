@@ -38,6 +38,7 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;;ghostwriter;Distraction-free, themeable Markdown editor;;editors;
 ;rice;gimp;GNU Image Manipulation Program;image editor;graphics;
 ;;gnome-disk-utility;manage and configure disk drives and media;;admin;
+;;gpa;GNU Privacy Assistant (GPA);;utils;
 ;;gparted;GNOME partition editor;;gnome;
 ;;gpg;GNU Privacy Guard -- minimalist public key operations;;utils;
 ;;grep;GNU grep, egrep and fgrep;;utils;
