@@ -33,6 +33,7 @@ SRC_TARGET_FILEPATHS="
 	.config/nitrogen
 	.config/nvim/spell
 	.config/nvim/init.vim
+	.config/qutebrowser/autoconfig.yml
 	.config/sxhkd/sxhkdrc
 	.config/vifm/colors
 	.config/vifm/scripts

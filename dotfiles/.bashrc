@@ -112,7 +112,7 @@ else
 fi
 
 # Default browser
-export BROWSER="chromium"
+export BROWSER="qutebrowser"
 
 # Default reader
 export READER="zathura"

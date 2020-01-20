@@ -15,7 +15,7 @@
 # URL='https://duckduckgo.com/?q='
 URL='https://google.com/search?q='
 QUERY=$(echo | dmenu -fn "Iosevka:size=14" -sb "#756869" -i -p "SEARCH" -b)
-BROWSER='chromium' # or surf
+#BROWSER='chromium' # or surf
 
 if [ -n "$QUERY" ]; then
 	$BROWSER "${URL}${QUERY}" 2> /dev/null
