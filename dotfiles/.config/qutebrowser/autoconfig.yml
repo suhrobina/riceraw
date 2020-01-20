@@ -7,28 +7,28 @@ settings:
     https://accounts.google.com/*: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101
       Firefox/57.0
   fonts.completion.category:
-    global: bold 12pt Iosevka
+    global: bold 14pt Iosevka
   fonts.completion.entry:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.debug_console:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.downloads:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.hints:
-    global: bold 12pt Iosevka
+    global: bold 14pt Iosevka
   fonts.keyhint:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.messages.error:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.messages.info:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.messages.warning:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.prompts:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.statusbar:
-    global: 12pt Iosevka
+    global: 14pt Iosevka
   fonts.tabs:
-    global: 12pt Iosevka
+    global: bold 14pt Iosevka
   scrolling.smooth:
     global: false
