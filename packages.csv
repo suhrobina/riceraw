@@ -15,6 +15,7 @@
 p;;calcurse;text-based calendar and todo manager;;utils;
 ;;calibre;powerful and easy to use e-book manager;;text;
 ;;chromium;web browser;web browser;;
+;rice;cmus;lightweight ncurses audio player;;sound;
 ;rice;compton;compositor for X11, based on xcompmgr;;x11;
 ;rice;compton-conf;Compton Configurator for Qt;;x11;
 ;;curlftpfs;filesystem to access FTP hosts based on FUSE and cURL;;utils;
@@ -25,6 +26,7 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;rice;dunst;dmenu-ish notification-daemon;;x11;
 ;rice;dwm;dynamic window manager;WM window manager;x11;https://suckless.org/
 ;rice;exfat-utils;utilities to create, check, label and dump exFAT filesystem;;otherosfs;
+;rice;fbxkb;X11 keyboard indicator and switcher;;x11;
 ;rice;fd-find;Simple, fast and user-friendly alternative to find;;utils;necessary package for fzf (check FZF_DEFAULT_COMMAND, FZF_CTRL_T_COMMAND envs)
 ;rice;ffmpeg;Tools for transcoding, streaming and playing of multimedia files;;video;
 ;;file-roller;archive manager for GNOME;;gnome;
@@ -71,6 +73,7 @@ p;;mytetra;smart crossplatform manager for information collecting;PIM manager;de
 ;rice;ncmpcpp;ncurses-based client for the Music Player Daemon (MPD);;sound;
 ;rice;neofetch;Shows Linux System Information with Distribution Logo;;utils;
 ;rice;neovim;heavily refactored vim fork;;editors;purge vim-* and install neovim*
+;rice;net-tools;NET-3 networking toolkit;;net;
 ;;nethogs;Net top tool grouping bandwidth per process;;net;
 ;rice;network-manager;network management framework (daemon and userspace tools);network manager;net;nmtui
 ;rice;network-manager-gnome ;network management framework (GNOME frontend);network manager;gnome;nm-applet, network-manager-*
@@ -85,6 +88,7 @@ p;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;defa
 ;;obs-studio;recorder and streamer for live video content;;video;https://obsproject.com/
 ;openbox;openbox;standards-compliant, fast, light-weight and extensible window manager;;x11;
 ;rice;papirus-icon-theme;Papirus open source icon theme for Linux;icon theme;x11;
+;openbox;pcmanfm;extremely fast and lightweight file manager;;utils;
 ;;pulsemixer;command-line mixer for PulseAudio with a curses interface;;sound;
 ;;putty;Telnet/SSH client for X;;net;
 ;;python3;interactive high-level object-oriented language;;python;
@@ -133,6 +137,7 @@ p;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
 ;rice;vifm;flexible vi-like file manager using ncurses;;utils;
 ;rice;vim;Vi IMproved - enhanced vi editor;;editors;
 p;rice;virtualbox;virtual machine;virtual machine;;https://www.virtualbox.org/
+;;volumeicon-alsa ;systray volume icon for alsa;;sound;
 ;rice;w3m;WWW browsable pager with excellent tables/frames support;;web;
 ;rice;wavemon;Wireless Device Monitoring Application;;net;
 p;;webmin;web-based interface for system administration for Unix;;;http://www.webmin.com/

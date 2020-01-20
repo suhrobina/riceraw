@@ -34,6 +34,7 @@ sxhkd &	                     # Bind keys
 #unclutter -grab &            # Remove mouse when idle
 compton &                    # Transparency
 
+fbxkb &                      # Keyboard indicator and switcher
 #stardict & 	             # Dictionary
 remmina -i &                 # Connect to remote desktops through the applet menu
 blueman-applet &             # Bluetooth Manager

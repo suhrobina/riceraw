@@ -100,7 +100,6 @@ def update_bar():
         var_power + delim + \
         var_backlight + delim + \
         var_volume + delim + \
-        var_kblayout + delim + \
         var_date + delim + \
         var_time
 
@@ -279,25 +278,6 @@ def module_volume(refresh_interval_sec):
 
 th_volume = threading.Thread(target=module_volume, args=(1,))
 th_volume.start()
-
-# ------------------------------------------------------------------------------
-
-var_kblayout = ""
-def module_kblayout(refresh_interval_sec):
-    global var_kblayout
-    while True:
-        out = execute("xset -q | grep -A 0 'LED' | cut -c59-67")
-
-        if int(out) == 0:
-            layout = "🖮 EN"
-        else:
-            layout = "🖮 RU"
-
-        var_kblayout = SchemeSel + " " + layout.rstrip() + " "
-        time.sleep(refresh_interval_sec)
-
-th_kblayout = threading.Thread(target=module_kblayout, args=(1,))
-th_kblayout.start()
 
 # ------------------------------------------------------------------------------
 
