@@ -211,6 +211,18 @@ alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -Iv'
 
+# Quick navigation
+alias DE='~/Desktop'
+alias DC='~/Documents'
+alias DO='~/Downloads'
+alias MU='~/Music'
+alias PI='~/Pictures'
+alias PB='~/Public'
+alias TE='~/Templates'
+alias VI='~/Videos'
+alias TM='/tmp'
+alias RD='/mnt/ramdisk'
+
 # Others
 if _checkexec vim; then
     alias v='vim'

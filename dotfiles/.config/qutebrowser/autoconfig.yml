@@ -30,5 +30,27 @@ settings:
     global: 14pt Iosevka
   fonts.tabs:
     global: bold 14pt Iosevka
+  qt.highdpi:
+    global: true
+  scrolling.bar:
+    global: always
   scrolling.smooth:
-    global: false
+    global: true
+  spellcheck.languages:
+    global:
+    - ru-RU
+  tabs.padding:
+    global:
+      bottom: 3
+      left: 5
+      right: 5
+      top: 3
+  url.searchengines:
+    global:
+      DEFAULT: https://www.google.com/search?q={}
+      d: https://duckduckgo.com/?q={}
+      y: https://www.youtube.com/search?q={}
+  url.start_pages:
+    global: https://start.duckduckgo.com
+  zoom.default:
+    global: 110%
