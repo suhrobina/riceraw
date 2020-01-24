@@ -307,7 +307,7 @@ eDP1 connected primary 1920x1080+0+0 (0x4b) normal (normal left inverted right x
 ...
 ```
 
-Create `/etc/X11/xorg.conf` and add
+Create `/etc/X11/xorg.conf` and add the following:
 
 ```
 Section "Device"
@@ -507,6 +507,81 @@ Install necessary packages
 $ sudo apt install alsa-utils
 $ sudo apt install pulseaudio pulseaudio-utils pulseaudio-module-bluetooth pulsemixer
 ```
+
+### Playing Music Daemon (mpd)
+
+Install package
+
+```bash
+$ sudo apt install mpd
+```
+
+Disable systemd services
+
+```bash
+$ sudo systemctl disable mpd.service mpd.socket
+```
+
+Create directories for user
+
+```bash
+$ mkdir -p ~/.config/mpd ~/.config/mpd/playlists
+```
+
+Create `~/.config/mpd/mpd.conf` and add the following:
+
+```
+music_directory		  "~/Music"
+playlist_directory    "~/.config/mpd/playlists"
+db_file			      "~/.config/mpd/tag_cache"
+log_file			  "~/.config/mpd/mpd.log"
+pid_file			  "~/.config/mpd/pid"
+state_file			  "~/.config/mpd/state"
+sticker_file          "~/.config/mpd/sticker.sql"
+
+bind_to_address		  "localhost"
+restore_paused        "yes"
+auto_update           "yes"
+
+# volume_normalization		"yes"
+filesystem_charset    "UTF-8"
+
+audio_output {
+	type		      "pulse"
+	name		      "pulse audio"
+	mixer_type        "software"
+}
+
+audio_output {
+    type              "fifo"
+    name              "toggle_visualizer"
+    path              "/tmp/mpd.fifo"
+    format            "44100:16:2"
+}
+
+input {
+        plugin     "curl"
+}
+
+input {
+        enabled    "no"
+        plugin     "qobuz"
+}
+
+input {
+        enabled    "no"
+        plugin     "tidal"
+}
+
+decoder {
+        enabled    "no"
+        plugin     "hybrid_dsd"
+}
+```
+
+Add `mpd &` into `.xinitrc`
+
+Install mpd client
 
 ### Editor
 
