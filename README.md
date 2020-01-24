@@ -28,7 +28,7 @@ Alexander Bordachyov <bam85g@gmail.com>
 - **Editor**           :  neovim
 - **File Manager**     :  vifm
 - **Image Viewer**     :  sxiv
-- **Others**           :  fzf, dunst, nitrogen, newsboat, calcurse, zathura ...
+- **Others**           :  fzf, dunst, nitrogen, newsboat, ncmpcpp, zathura ...
 
 Full list of favorite Linux packages: [packages.csv](packages.csv)
 
@@ -69,31 +69,31 @@ _Method #2: Create a Linux Swap File_
 Create a file
 
 ```bash
-$ sudo fallocate -l 1G /swapfile
+$ sudo fallocate -l 1G /1G.swap
 ```
 
 Set permission
 
 ```bash
-$ sudo chmod 600 /swapfile
+$ sudo chmod 600 /1G.swap
 ```
 
 Format the file to swap
 
 ```bash
-$ sudo mkswap /swapfile
+$ sudo mkswap /1G.swap
 ```
 
 Enable the swap
 
 ```bash
-$ sudo swapon /swapfile
+$ sudo swapon /1G.swap
 ```
 
 Edit the `/etc/fstab` file and add the following:
 
 ```
-/swapfile swap swap defaults 0 0
+/1G.swap swap swap defaults 0 0
 ```
 
 Reboot and check the status of the swap file:
@@ -514,7 +514,7 @@ Replace vim with neovim
 
 ```bash
 $ sudo apt pure vim-*
-$ sudo apt install neovim neovim-qtA
+$ sudo apt install neovim neovim-qt
 ```
 
 ### Terminal
@@ -555,8 +555,6 @@ xterm*color15:     #EEEEEC
 ```
 
 ![Image](img/tango_colorscheme.png)
-
-Additional terminal package: `xfce4-terminal`
 
 PART 2/2 DWM Installation Workflow
 ----------------------------------

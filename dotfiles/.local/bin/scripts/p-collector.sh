@@ -24,10 +24,10 @@
 # NOTE it's important set correct path
 SRC_ROOT_FOLDER="${HOME}"
 SRC_TARGET_FILEPATHS="
-	.calcurse/conf
 	.config/dunst/dunstrc
 	.config/fontconfig
 	.config/gtk-3.0
+	.config/mpd/mpd.conf
 	.config/neofetch
 	.config/newsboat/config
 	.config/nitrogen
@@ -38,7 +38,6 @@ SRC_TARGET_FILEPATHS="
 	.config/vifm/colors
 	.config/vifm/scripts
 	.config/vifm/vifmrc
-	.config/xfce4/terminal/terminalrc
 	.config/compton.conf
 	.config/user-dirs.dirs
 	.fonts/Hack-Regular.ttf

@@ -40,7 +40,9 @@ remmina -i &                 # Connect to remote desktops through the applet men
 blueman-applet &             # Bluetooth Manager
 redshift-gtk &               # Color temperature adjustment tool
 nm-applet &                  # Network Manager
+mpd &                        # Playing music daemon
 ~/.joplin/Joplin.AppImage &  # Note taking app
+syncthing-gtk -m &           # GTK3-based GUI and notification area icon for syncthing
 sleep 2 && telegram &        # Messenger
 
 # Welcome Notification

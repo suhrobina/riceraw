@@ -36,9 +36,6 @@ settings:
     global: always
   scrolling.smooth:
     global: true
-  spellcheck.languages:
-    global:
-    - ru-RU
   tabs.padding:
     global:
       bottom: 3

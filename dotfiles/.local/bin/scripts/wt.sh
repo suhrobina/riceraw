@@ -19,17 +19,18 @@
 #
 #  REQUIREMENTS: Packages:
 #                   - dialog
-#                   - countdown (https://github.com/antonmedv/countdown)
+#                   - termdown (https://github.com/trehn/termdown)
 #
 #        AUTHOR: Suhrob R. Nuraliev, LongOverdueVitalEnergy@Gmail.com
 #     COPYRIGHT: Copyright (c) 2019
 #       LICENSE: GNU General Public License
 #       CREATED: 26 Dec 2019
+#       REVISED: 24 Jan 2020
 # =============================================================================                                                       
 function _timer() {
-    countdown 45m && notify-send -t 60000 -u low "Timer 45/15" \
+    termdown 45m && notify-send -t 60000 -u low "Timer 45/15" \
         "Working time is over, go take a rest!"
-    countdown 15m && notify-send -t 60000 -u low "Timer 45/15" \
+    termdown 15m && notify-mend -t 60000 -u low "Timer 45/15" \
         "Start Working!"
 }
 
