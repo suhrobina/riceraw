@@ -23,6 +23,12 @@ SCHEDULED=""
 RECURRENCE=""
 UNTIL=""
 
+# select project first
+PROJ_VALUES=$(dialog --title "Projects" --menu "" 15 40 0 \
+    $(task projects | sed -e '1,3d' | head -n -2 | sed ':a;N;$!ba;s/\n/ /g') 3>&1 1>&2 2>&3)
+EXIT_CODE3=$?
+if [ ${EXIT_CODE3} -eq 0 ]; then PROJECT=${PROJ_VALUES}; else PROJECT=""; fi
+
 while :;
 do
     # open fd
@@ -42,8 +48,8 @@ do
         --help-button                                      \
         --help-label "Clear"                               \
         --form "" 0 0 0                                    \
-        "Description:" 1 2  "${DESCRIPTION}"  2   2 30 0   \
-        "Priority: "   1 34 "${PRIORITY}"     2  34 10 0   \
+        "Description:" 1 2  "${DESCRIPTION}"  2   2 37 0   \
+        "P: "          1 41 "${PRIORITY}"     2  41  3 0   \
         "Project:"     3 2  "${PROJECT}"      4   2 20 0   \
         "Tags:"        3 24 "${TAGS}"         4  24 20 0   \
         "Due:"         5 2  "${DUE}"          6   2 20 0   \

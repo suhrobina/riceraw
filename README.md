@@ -51,7 +51,7 @@ Linux Distro is DEBIAN 10 Buster
 
 **Tip**: Use `timeshift` software to facilitate the process of building Linux
 
-### Partitioning
+### Partitioning (MBR)
 
 **Linux Swap**
 

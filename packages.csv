@@ -11,13 +11,16 @@
 ;;bleachbit;delete unnecessary files from the system;;admin;
 ;rice;blueman;Graphical bluetooth manager;;x11;
 ;;bmon;portable bandwidth monitor and rate estimator;;net;
+;;bmon;portable bandwidth monitor and rate estimator;;net;
 ;;bspwm;Binary space partitioning window manager;;x11;https://github.com/baskerville/bspwm
 p;;calcurse;text-based calendar and todo manager;;utils;
 ;;calibre;powerful and easy to use e-book manager;;text;
 ;;chromium;web browser;web browser;;
+;;collectd;statistics collection and monitoring daemon;;utils;
 ;rice;compton;compositor for X11, based on xcompmgr;;x11;
 ;rice;compton-conf;Compton Configurator for Qt;;x11;
 ;;curlftpfs;filesystem to access FTP hosts based on FUSE and cURL;;utils;
+;;davfs2;mount a WebDAV resource as a regular file system;;utils;
 ;;deluge;bittorrent client written in Python/PyGTK;;net;
 ;rice;dialog;dialog --common-options --yesno text height width;;misc;
 ;;dmidecode;SMBIOS/DMI table decoder;;utils;
@@ -50,6 +53,8 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;;iftop;displays bandwidth usage information on an network interface;;net;
 ;;imwheel;program to support non-standard buttons on mice in Linux;;X11;
 ;;inxi;full featured system information script;;misc;
+;;iotop;simple top-like I/O monitor;;admin;
+;;iperf3;Internet Protocol bandwidth measuring tool;;net;
 ;;iptraf-ng;Next Generation Interactive Colorful IP LAN Monitor;;net;
 p;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.si
 ;rice;joypixels-android.ttf;version 5.0, unicode 12.0 for emoji coverage;;fonts;check Emoji coverage surf https://getemoji.com
