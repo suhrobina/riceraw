@@ -531,25 +531,25 @@ $ mkdir -p ~/.config/mpd ~/.config/mpd/playlists
 Create `~/.config/mpd/mpd.conf` and add the following:
 
 ```
-music_directory		  "~/Music"
-playlist_directory    "~/.config/mpd/playlists"
-db_file			      "~/.config/mpd/tag_cache"
-log_file			  "~/.config/mpd/mpd.log"
-pid_file			  "~/.config/mpd/pid"
-state_file			  "~/.config/mpd/state"
-sticker_file          "~/.config/mpd/sticker.sql"
+music_directory        "~/Music"
+playlist_directory     "~/.config/mpd/playlists"
+db_file			       "~/.config/mpd/tag_cache"
+log_file               "~/.config/mpd/mpd.log"
+pid_file               "~/.config/mpd/pid"
+state_file             "~/.config/mpd/state"
+sticker_file           "~/.config/mpd/sticker.sql"
 
-bind_to_address		  "localhost"
-restore_paused        "yes"
-auto_update           "yes"
+bind_to_address        "localhost"
+restore_paused         "yes"
+auto_update            "yes"
 
-# volume_normalization		"yes"
-filesystem_charset    "UTF-8"
+# volume_normalization "yes"
+filesystem_charset     "UTF-8"
 
 audio_output {
-	type		      "pulse"
-	name		      "pulse audio"
-	mixer_type        "software"
+	type               "pulse"
+	name               "pulse audio"
+	mixer_type         "software"
 }
 
 audio_output {
@@ -560,22 +560,22 @@ audio_output {
 }
 
 input {
-        plugin     "curl"
+        plugin        "curl"
 }
 
 input {
-        enabled    "no"
-        plugin     "qobuz"
+        enabled       "no"
+        plugin        "qobuz"
 }
 
 input {
-        enabled    "no"
-        plugin     "tidal"
+        enabled       "no"
+        plugin        "tidal"
 }
 
 decoder {
-        enabled    "no"
-        plugin     "hybrid_dsd"
+        enabled       "no"
+        plugin        "hybrid_dsd"
 }
 ```
 
