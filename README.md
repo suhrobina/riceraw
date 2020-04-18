@@ -533,7 +533,7 @@ Create `~/.config/mpd/mpd.conf` and add the following:
 ```
 music_directory        "~/Music"
 playlist_directory     "~/.config/mpd/playlists"
-db_file			       "~/.config/mpd/tag_cache"
+db_file                "~/.config/mpd/tag_cache"
 log_file               "~/.config/mpd/mpd.log"
 pid_file               "~/.config/mpd/pid"
 state_file             "~/.config/mpd/state"

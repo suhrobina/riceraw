@@ -94,6 +94,7 @@ p;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;defa
 ;rice;papirus-icon-theme;Papirus open source icon theme for Linux;icon theme;x11;
 ;;partclone;Utility to clone and restore a partition;;admin;
 ;openbox;pcmanfm;extremely fast and lightweight file manager;;utils;could mount/umount automatically. Run as daemon.
+;;puddletag;simple, powerful audio tag editor;;sound;
 ;;pulsemixer;command-line mixer for PulseAudio with a curses interface;;sound;
 ;;putty;Telnet/SSH client for X;;net;
 ;;python3;interactive high-level object-oriented language;;python;
@@ -132,6 +133,7 @@ p;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shad
 ;;tigervnc-standalone-server;Standalone virtual network computing server;;x11;
 ;;tigervnc-viewer;Virtual network computing client for X;;x11;
 p;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
+;rice;timidity;Software sound renderer (MIDI sequencer, MOD player);;sound;
 ;openbox;tint2;lightweight taskbar;;x11;
 ;rice;tlp tlp-rdw tlpui;advanced power management tool for Linux;power management;utils;
 ;;tmux;terminal multiplexer;;admin;
