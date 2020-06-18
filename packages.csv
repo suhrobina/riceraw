@@ -52,6 +52,7 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;;iceweasel;Web browser based on Firefox - Transitional package;web browser;;
 ;;iftop;displays bandwidth usage information on an network interface;;net;
 ;;imwheel;program to support non-standard buttons on mice in Linux;;X11;
+;;inkscape;vector-based drawing program;;graphics;nice!
 ;;inxi;full featured system information script;;misc;
 ;;iotop;simple top-like I/O monitor;;admin;
 ;;iperf3;Internet Protocol bandwidth measuring tool;;net;

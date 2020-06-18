@@ -50,4 +50,4 @@ settings:
   url.start_pages:
     global: https://start.duckduckgo.com
   zoom.default:
-    global: 110%
+    global: '140'

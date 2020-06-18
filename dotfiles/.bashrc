@@ -172,6 +172,10 @@ if [ -d "$HOME/.local/bin/scripts" ]; then
     export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 fi
 
+# QT
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_SCALE_FACTOR=1.2
+
 # == ALIASES ==================================================================
 
 # Make ls a bit easier to read and enable color
