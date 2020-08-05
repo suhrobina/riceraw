@@ -115,6 +115,7 @@ proprietary;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;t
 ;;shc;Generic shell script compiler;;devel;
 ;;simplescreenrecorder;Feature-rich screen recorder for X11 and OpenGL;;video;
 ;rice;slim;x-display-manager;DM display manager;x11;slimlock
+;rice;snapd;Daemon and tooling that enable snap packages ;;devel;Adding /snap/bin to your default $PATH makes running snaps that don’t automatically add themselves more convenient
 ;;socat;multipurpose relay for bidirectional data transfer;;net;
 ;rice;source-highlight;convert source code to syntax highlighted document;;devel;for syntax highlighting in less
 ;rice;ssh-askpass;under X, asks user for a passphrase for ssh-add;;net;configure SUDO_ASKPASS env (man sudo.conf)

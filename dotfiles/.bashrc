@@ -172,9 +172,12 @@ if [ -d "$HOME/.local/bin/scripts" ]; then
     export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 fi
 
+# Adding /snap/bin to default $PATH makes running snaps
+export PATH=$PATH:"/snap/bin"
+
 # QT
 export QT_QPA_PLATFORMTHEME=qt5ct
-export QT_SCALE_FACTOR=1.2
+export QT_SCALE_FACTOR=1.08
 
 # == ALIASES ==================================================================
 
