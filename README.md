@@ -657,7 +657,7 @@ $ sudo make clean install
 
 All patch files: [here](sources/dwm/patches)
 
-- Patch #1: [complete-own-modification_2019-Dec-29_01-21-30.dwm-6.2.patch.diff](/sources/dwm/patches/complete-own-modification_2019-Dec-29_01-21-30.dwm-6.2.patch.diff)
+- Patch #1: [step-1.patch.dwm-6.2-20191020-custom-statuscolor-systray.diff](/sources/dwm/patches/step-1.patch.dwm-6.2-20191020-custom-statuscolor-systray.diff)
 
 - Patch #2: [step-2.patch.dwm-movestack-6.1.diff](sources/dwm/patches/step-2.patch.dwm-movestack-6.1.diff)
 

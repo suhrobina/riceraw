@@ -13,7 +13,7 @@
 ;;bmon;portable bandwidth monitor and rate estimator;;net;
 ;;bmon;portable bandwidth monitor and rate estimator;;net;
 ;;bspwm;Binary space partitioning window manager;;x11;https://github.com/baskerville/bspwm
-p;;calcurse;text-based calendar and todo manager;;utils;
+proprietary;;calcurse;text-based calendar and todo manager;;utils;
 ;;calibre;powerful and easy to use e-book manager;;text;
 ;;chromium;web browser;web browser;;
 ;;collectd;statistics collection and monitoring daemon;;utils;
@@ -36,6 +36,7 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;rice;fonts-iosevka;;;fonts;https://www.google.com/search?q=iosevka+font&oq=iosevka&aqs=chrome.0.69i59l3j69i57.1869j0j7&sourceid=chrome&ie=UTF-8
 ;rice;fonts-liberation;Fonts with the same metrics as Times, Arial and Courier;fonts;fonts;
 ;rice;fonts-powerline;prompt and statusline utility (symbols font);;fonts;
+node.js;;frontail;Node.js application for streaming logs to the browser. It's a tail -F with UI.;;;https://github.com/mthenw/frontail
 ;rice;fzf;general-purpose command-line fuzzy finder;;utils;
 ;;gawk;GNU awk, a pattern scanning and processing language;;interpreters;
 ;;gddrescue;GNU data recovery tool;;utils;
@@ -57,7 +58,7 @@ p;;calcurse;text-based calendar and todo manager;;utils;
 ;;iotop;simple top-like I/O monitor;;admin;
 ;;iperf3;Internet Protocol bandwidth measuring tool;;net;
 ;;iptraf-ng;Next Generation Interactive Colorful IP LAN Monitor;;net;
-p;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.si
+proprietary;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.si
 ;rice;joypixels-android.ttf;version 5.0, unicode 12.0 for emoji coverage;;fonts;check Emoji coverage surf https://getemoji.com
 ;rice;libnotify-bin;sends desktop notifications to a notification daemon (Utilities);;utils;notify-send tool
 ;rice;libreoffice;office productivity suite (metapackage);office;metapackages;
@@ -74,7 +75,7 @@ p;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.si
 ;;motion;V4L capture program supporting motion detection;;video;
 ;rice;mpd;Music Player Daemon;;sound;
 ;rice;mpv;video player based on MPlayer/mplayer2;video player;video;
-p;;mytetra;smart crossplatform manager for information collecting;PIM manager;default;https://webhamster.ru/
+proprietary;;mytetra;smart crossplatform manager for information collecting;PIM manager;default;https://webhamster.ru/
 ;rice;ncmpcpp;ncurses-based client for the Music Player Daemon (MPD);;sound;
 ;rice;neofetch;Shows Linux System Information with Distribution Logo;;utils;
 ;rice;neovim;heavily refactored vim fork;;editors;purge vim-* and install neovim*
@@ -86,7 +87,7 @@ p;;mytetra;smart crossplatform manager for information collecting;PIM manager;de
 ;;nginx;small, powerful, scalable web/proxy server;;httpd;
 ;rice;nitrogen;wallpaper browser and changing utility for X;wallpaper manager;x11;
 ;;nload;realtime console network usage monitor;;net;
-p;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;default;
+proprietary;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;default;
 ;rice;ntfs-3g;read/write NTFS driver for FUSE;;otherosfs;
 ;openbox;obconf;preferences manager for Openbox window manager;;x11;
 ;openbox;obmenu;sudo apt-get install awn;;x11;
@@ -110,7 +111,7 @@ p;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;defa
 ;rice;screenkey;screencast tool to display your keystrokes;;python;
 ;;sdcv;StarDict Console Version;;utils;
 ;;sed;GNU stream editor for filtering/transforming text;;utils;
-p;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shades-of-grey-harvest
+proprietary;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shades-of-grey-harvest
 ;;shc;Generic shell script compiler;;devel;
 ;;simplescreenrecorder;Feature-rich screen recorder for X11 and OpenGL;;video;
 ;rice;slim;x-display-manager;DM display manager;x11;slimlock
@@ -133,7 +134,7 @@ p;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shad
 ;rice;telegram-desktop;official telegram messaging app;messenger;net;
 ;;tigervnc-standalone-server;Standalone virtual network computing server;;x11;
 ;;tigervnc-viewer;Virtual network computing client for X;;x11;
-p;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
+proprietary;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
 ;rice;timidity;Software sound renderer (MIDI sequencer, MOD player);;sound;
 ;openbox;tint2;lightweight taskbar;;x11;
 ;rice;tlp tlp-rdw tlpui;advanced power management tool for Linux;power management;utils;
@@ -147,14 +148,14 @@ p;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
 ;rice;urlscan;Extract and browse the URLs contained in an email (urlview replacement);;mail;
 ;rice;vifm;flexible vi-like file manager using ncurses;;utils;
 ;rice;vim;Vi IMproved - enhanced vi editor;;editors;
-p;rice;virtualbox;virtual machine;virtual machine;;https://www.virtualbox.org/
+proprietary;rice;virtualbox;virtual machine;virtual machine;;https://www.virtualbox.org/
 ;;volumeicon-alsa ;systray volume icon for alsa;;sound;
 ;rice;w3m;WWW browsable pager with excellent tables/frames support;;web;
 ;rice;wavemon;Wireless Device Monitoring Application;;net;
-p;;webmin;web-based interface for system administration for Unix;;;http://www.webmin.com/
+proprietary;;webmin;web-based interface for system administration for Unix;;;http://www.webmin.com/
 ;;wget;retrieves files from the web;;web;
 ;openbox;wicd; wired and wireless network manager - metapackage;;net;
-p;;Wing Pro IDE;full-featured Python IDE designed for professional developers;;;https://wingware.com/
+proprietary;;Wing Pro IDE;full-featured Python IDE designed for professional developers;;;https://wingware.com/
 ;;x11vnc;VNC server to allow remote access to an existing X session;;x11;
 ;;xbacklight;simple utility to set the backlight level;;x11;
 ;;xcalib;Tiny monitor calibration loader for Xorg;;x11;
@@ -167,6 +168,6 @@ p;;Wing Pro IDE;full-featured Python IDE designed for professional developers;;;
 ;rice;xserver-xorg-input-synaptics;Synaptics TouchPad driver for X.Org server;;x11;
 ;rice;xterm;X terminal emulator;;x11;
 ;;youtube-dl;downloader of videos from YouTube and other sites;;web;
-p;;youtube-viewer;a lightweight application for searching and streaming videos from YouTube;;;https://github.com/trizen/youtube-viewer
+proprietary;;youtube-viewer;a lightweight application for searching and streaming videos from YouTube;;;https://github.com/trizen/youtube-viewer
 ;rice;zathura;document viewer with a minimalistic interface;;text;
 ;rice;zathura-djvu;DjVu support for zathura;;text;
