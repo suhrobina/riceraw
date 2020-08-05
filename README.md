@@ -499,13 +499,13 @@ Please see below an example of how to check askpass
 sudo -A timeshift-gtk
 ```
 
-### Audio
+### Audio & Bluetooth
 
 Install necessary packages
 
 ```bash
 $ sudo apt install alsa-utils
-$ sudo apt install pulseaudio pulseaudio-utils pulseaudio-module-bluetooth pulsemixer
+$ sudo apt install pulseaudio pulseaudio-utils pulseaudio-module-bluetooth blueman bluez-firmware pulsemixer
 ```
 
 ### Playing Music Daemon (mpd)
