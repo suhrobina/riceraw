@@ -180,7 +180,7 @@ export PATH=$PATH:"/snap/bin"
 
 # QT
 export QT_QPA_PLATFORMTHEME=qt5ct
-export QT_SCALE_FACTOR=1.08
+export QT_SCALE_FACTOR=1.00
 
 # == ALIASES ==================================================================
 
