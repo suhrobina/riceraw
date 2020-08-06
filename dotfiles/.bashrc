@@ -96,6 +96,9 @@ shopt -s checkwinsize
 # Allows you to cd into directory merely by typing the directory name.
 shopt -s autocd
 
+# Set file mode creation mask. Default value is 0022
+umask 0022
+
 # == VARIABLE =================================================================
 
 # Default terminal
