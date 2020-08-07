@@ -92,17 +92,17 @@ xterm*highlightTextColor: XtDefaultBackground
 
 ! Font settings ! ------------------------------------------------------------
 
-xterm*faceName: Iosevka
-xterm*faceSize: 14
+xterm*faceName: Iosevka Fixed
+xterm*faceSize: 15
 xterm*renderFont: true
 xterm*allowBoldFonts: true
 xterm*boldColors: true
-xterm*faceSize1: 10
-xterm*faceSize2: 12
-xterm*faceSize3: 16
-xterm*faceSize4: 18
-xterm*faceSize5: 20
-xterm*faceSize6: 22
+xterm*faceSize1: 11
+xterm*faceSize2: 13
+xterm*faceSize3: 17
+xterm*faceSize4: 19
+xterm*faceSize5: 21
+xterm*faceSize6: 23
 xterm*forceBoxChars: false
 !xterm*limitFontsets: 5
 xterm*scaleHeight: 1.0

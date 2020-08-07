@@ -41,7 +41,9 @@ SRC_TARGET_FILEPATHS="
 	.config/compton.conf
 	.config/user-dirs.dirs
 	.fonts/Hack-Regular.ttf
+	.fonts/iosevka-fixed-regular.ttf
 	.fonts/iosevka-regular.ttf
+	.fonts/iosevka-term-regular.ttf
 	.fonts/joypixels-android.ttf
 	.local/bin/scripts
 	.local/share/color
