@@ -107,6 +107,7 @@ proprietary;;notable;The Markdown-based note-taking app that doesn't suck;PIM ma
 ;;remmina;GTK+ Remote Desktop Client;;gnome;
 ;;rofi;window switcher, run dialog and dmenu replacement;;x11;https://github.com/davatorium/rofi
 ;;rsync;fast, versatile, remote (and local) file-copying tool;;net;
+;;scrcpy;provides display and control of Android devices;;;https://github.com/Genymobile/scrcpy
 ;;screen;terminal multiplexer with VT100/ANSI terminal emulation;;misc;
 ;rice;screenkey;screencast tool to display your keystrokes;;python;
 ;;sdcv;StarDict Console Version;;utils;
