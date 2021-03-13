@@ -28,6 +28,7 @@ proprietary;;calcurse;text-based calendar and todo manager;;utils;
 ;rice;dunst;dmenu-ish notification-daemon;;x11;
 ;rice;dwm;dynamic window manager;WM window manager;x11;https://suckless.org/
 ;rice;exfat-utils;utilities to create, check, label and dump exFAT filesystem;;otherosfs;
+;;fatrace;report system wide file access events;;utils;
 ;rice;fbxkb;X11 keyboard indicator and switcher;;x11;
 ;rice;fd-find;Simple, fast and user-friendly alternative to find;;utils;necessary package for fzf (check FZF_DEFAULT_COMMAND, FZF_CTRL_T_COMMAND envs)
 ;rice;ffmpeg;Tools for transcoding, streaming and playing of multimedia files;;video;
@@ -60,6 +61,7 @@ node.js;;frontail;Node.js application for streaming logs to the browser. It's a 
 ;;iptraf-ng;Next Generation Interactive Colorful IP LAN Monitor;;net;
 proprietary;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.si
 ;rice;joypixels-android.ttf;version 5.0, unicode 12.0 for emoji coverage;;fonts;check Emoji coverage surf https://getemoji.com
+;;kicad;Electronic schematic and PCB design software ;;electronics;
 ;rice;libnotify-bin;sends desktop notifications to a notification daemon (Utilities);;utils;notify-send tool
 ;rice;libreoffice;office productivity suite (metapackage);office;metapackages;
 ;rice;libreoffice-gtk3;office productivity suite -- GTK+ 3 integration;;gnome;helps fix small fonts
@@ -74,8 +76,8 @@ proprietary;;jitsi-meet;WebRTC JavaScript video conferences;;;https://meet.jit.s
 ;;mktemp;coreutils mktemp transitional package;;oldlibs;
 ;;motion;V4L capture program supporting motion detection;;video;
 ;rice;mpd;Music Player Daemon;;sound;
-;rice;mpv;video player based on MPlayer/mplayer2;video player;video;
-proprietary;;mytetra;smart crossplatform manager for information collecting;PIM manager;default;https://webhamster.ru/
+proprietary;rice;mpv;video player based on MPlayer/mplayer2;video player;video;
+;;mytetra;smart crossplatform manager for information collecting;PIM manager;default;https://webhamster.ru/
 ;rice;ncmpcpp;ncurses-based client for the Music Player Daemon (MPD);;sound;
 ;rice;neofetch;Shows Linux System Information with Distribution Logo;;utils;
 ;rice;neovim;heavily refactored vim fork;;editors;purge vim-* and install neovim*
@@ -86,8 +88,8 @@ proprietary;;mytetra;smart crossplatform manager for information collecting;PIM 
 ;rice;newsboat;text mode rss feed reader with podcast support;RSS reader;net;
 ;;nginx;small, powerful, scalable web/proxy server;;httpd;
 ;rice;nitrogen;wallpaper browser and changing utility for X;wallpaper manager;x11;
-;;nload;realtime console network usage monitor;;net;
-proprietary;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;default;
+proprietary;;nload;realtime console network usage monitor;;net;
+;;notable;The Markdown-based note-taking app that doesn't suck;PIM manager;default;
 ;rice;ntfs-3g;read/write NTFS driver for FUSE;;otherosfs;
 ;openbox;obconf;preferences manager for Openbox window manager;;x11;
 ;openbox;obmenu;sudo apt-get install awn;;x11;
@@ -111,8 +113,8 @@ proprietary;;notable;The Markdown-based note-taking app that doesn't suck;PIM ma
 ;;screen;terminal multiplexer with VT100/ANSI terminal emulation;;misc;
 ;rice;screenkey;screencast tool to display your keystrokes;;python;
 ;;sdcv;StarDict Console Version;;utils;
-;;sed;GNU stream editor for filtering/transforming text;;utils;
-proprietary;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shades-of-grey-harvest
+proprietary;;sed;GNU stream editor for filtering/transforming text;;utils;
+;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;theme;;shades-of-grey-harvest
 ;;shc;Generic shell script compiler;;devel;
 ;;simplescreenrecorder;Feature-rich screen recorder for X11 and OpenGL;;video;
 ;rice;slim;x-display-manager;DM display manager;x11;slimlock
@@ -133,10 +135,11 @@ proprietary;rice;shades-of-grey;A flat dark GTK-theme with ergonomic contrasts;t
 ;rice;taskd;Synchronisation server for taskwarrior;;utils;
 ;rice;tasksh; shell command that wraps Taskwarrior commands;;utils;taskwarrior required
 ;rice;taskwarrior;feature-rich console based todo list manager;;utils;https://www.youtube.com/watch?v=zl68asL9jZA
+;;taskwarrior-tui;A Terminal User Interface for Taskwarrior;;;https://github.com/kdheepak/taskwarrior-tui
 ;rice;telegram-desktop;official telegram messaging app;messenger;net;
 ;;tigervnc-standalone-server;Standalone virtual network computing server;;x11;
-;;tigervnc-viewer;Virtual network computing client for X;;x11;
-proprietary;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
+proprietary;;tigervnc-viewer;Virtual network computing client for X;;x11;
+;;timeshift;system restore utility;;;https://github.com/teejee2008/timeshift
 ;rice;timidity;Software sound renderer (MIDI sequencer, MOD player);;sound;
 ;openbox;tint2;lightweight taskbar;;x11;
 ;rice;tlp tlp-rdw tlpui;advanced power management tool for Linux;power management;utils;
@@ -149,15 +152,15 @@ proprietary;;timeshift;system restore utility;;;https://github.com/teejee2008/ti
 ;rice;unzip;De-archiver for .zip files;;utils;
 ;rice;urlscan;Extract and browse the URLs contained in an email (urlview replacement);;mail;
 ;rice;vifm;flexible vi-like file manager using ncurses;;utils;
-;rice;vim;Vi IMproved - enhanced vi editor;;editors;
-proprietary;rice;virtualbox;virtual machine;virtual machine;;https://www.virtualbox.org/
+proprietary;rice;vim;Vi IMproved - enhanced vi editor;;editors;
+;rice;virtualbox;virtual machine;virtual machine;;https://www.virtualbox.org/
 ;;volumeicon-alsa ;systray volume icon for alsa;;sound;
 ;rice;w3m;WWW browsable pager with excellent tables/frames support;;web;
-;rice;wavemon;Wireless Device Monitoring Application;;net;
-proprietary;;webmin;web-based interface for system administration for Unix;;;http://www.webmin.com/
+proprietary;rice;wavemon;Wireless Device Monitoring Application;;net;
+;;webmin;web-based interface for system administration for Unix;;;http://www.webmin.com/
 ;;wget;retrieves files from the web;;web;
-;openbox;wicd; wired and wireless network manager - metapackage;;net;
-proprietary;;Wing Pro IDE;full-featured Python IDE designed for professional developers;;;https://wingware.com/
+proprietary;openbox;wicd; wired and wireless network manager - metapackage;;net;
+;;Wing Pro IDE;full-featured Python IDE designed for professional developers;;;https://wingware.com/
 ;;x11vnc;VNC server to allow remote access to an existing X session;;x11;
 ;;xbacklight;simple utility to set the backlight level;;x11;
 ;;xcalib;Tiny monitor calibration loader for Xorg;;x11;
@@ -169,7 +172,7 @@ proprietary;;Wing Pro IDE;full-featured Python IDE designed for professional dev
 ;rice;xosd-bin;X On-Screen Display library - binary files;;x11;osd_cat tool
 ;rice;xserver-xorg-input-synaptics;Synaptics TouchPad driver for X.Org server;;x11;
 ;rice;xterm;X terminal emulator;;x11;
-;;youtube-dl;downloader of videos from YouTube and other sites;;web;
-proprietary;;youtube-viewer;a lightweight application for searching and streaming videos from YouTube;;;https://github.com/trizen/youtube-viewer
+proprietary;;youtube-dl;downloader of videos from YouTube and other sites;;web;
+;;youtube-viewer;a lightweight application for searching and streaming videos from YouTube;;;https://github.com/trizen/youtube-viewer
 ;rice;zathura;document viewer with a minimalistic interface;;text;
 ;rice;zathura-djvu;DjVu support for zathura;;text;
